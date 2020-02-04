@@ -64,7 +64,7 @@
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "SCOPE_XCODE_DSN"
-            value = "$(SCOPE_XCODE_DSN)&#10;"
+            value = "$(SCOPE_XCODE_DSN)"
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
@@ -74,12 +74,12 @@
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "SCOPE_SOURCE_ROOT"
-            value = "$(GITHUB_WORKSPACE)&#10;"
+            value = "$(GITHUB_WORKSPACE)"
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "GITHUB_REPOSITORY"
-            value = "$(GITHUB_REPOSITORY)&#10;"
+            value = "$(GITHUB_REPOSITORY)"
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
