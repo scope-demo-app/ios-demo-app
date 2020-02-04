@@ -10,6 +10,13 @@
 import XCTest
 
 class RestaurantCreateTests: XCTestCase {
+
+    func testRestaurantPrintEnvironment() {
+        let environment = ProcessInfo.processInfo.environment
+        print(environment)
+    }
+
+
     func testRestaurantCreateInitializationSucceeds() {
         let emptyDescRestaurant = RestaurantCreate(name: "Zero", photo: nil, desc: nil)
         XCTAssertNotNil(emptyDescRestaurant)
