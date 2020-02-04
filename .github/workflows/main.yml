@@ -17,3 +17,4 @@ jobs:
         run: xcodebuild test -project Hambourgeoisie.xcodeproj -scheme Hambourgeoisie -destination 'platform=iOS Simulator,name=iPhone 11'
         env:
           SCOPE_DSN: ${{secrets.SCOPE_DSN}}
+
