@@ -14,6 +14,6 @@ jobs:
       - name: Build and test
         run: |
           carthage update
-          xcodebuild test -project Hambourgeoisie.xcodeproj -scheme Hambourgeoisie -destination 'platform=iOS Simulator,name=iPhone 11'
+          xcodebuild test -project Hambourgeoisie.xcodeproj -scheme Hambourgeoisie -destination 'platform=iOS Simulator,name=iPhone 11' | xcpretty
         env:
           SCOPE_DSN: ${{secrets.SCOPE_DSN}}
