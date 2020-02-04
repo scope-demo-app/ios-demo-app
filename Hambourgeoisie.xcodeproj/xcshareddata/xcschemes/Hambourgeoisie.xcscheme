@@ -63,7 +63,7 @@
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
-            key = "SCOPE_DSN"
+            key = "SCOPE_COMMIT_SHA"
             value = "$(GITHUB_SHA)"
             isEnabled = "YES">
          </EnvironmentVariable>
@@ -80,6 +80,16 @@
          <EnvironmentVariable
             key = "SCOPE_XCODE_DSN"
             value = "$(SCOPE_XCODE_DSN)&#10;"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SCOPE_INSTRUMENTATION_HTTP_PAYLOADS"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SCOPE_SET_GLOBAL_TRACER"
+            value = "YES"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
