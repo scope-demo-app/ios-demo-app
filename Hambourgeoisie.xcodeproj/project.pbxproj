@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		664CFF5723E95CAB00E6C660 /* URLRequest+MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664CFF5623E95CAB00E6C660 /* URLRequest+MultipartFormData.swift */; };
+		664CFF5723E95CAB00E6C660 /* URLRequestMultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664CFF5623E95CAB00E6C660 /* URLRequestMultipartFormData.swift */; };
 		664CFF6023E9651700E6C660 /* TPKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; };
 		664CFF6123E9652D00E6C660 /* TPKeyboardAvoidingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6699589623E970C200DDC000 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
@@ -54,7 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		664CFF5623E95CAB00E6C660 /* URLRequest+MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "URLRequest+MultipartFormData.swift"; path = "../../../../Downloads/URLRequest+MultipartFormData.swift"; sourceTree = "<group>"; };
+		664CFF5623E95CAB00E6C660 /* URLRequestMultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLRequestMultipartFormData.swift; path = ../../../../Downloads/URLRequestMultipartFormData.swift; sourceTree = "<group>"; };
 		664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPKeyboardAvoidingKit.framework; path = Carthage/Build/iOS/TPKeyboardAvoidingKit.framework; sourceTree = "<group>"; };
 		6699589523E970C200DDC000 /* ScopeAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScopeAgent.framework; path = Carthage/Build/iOS/ScopeAgent.framework; sourceTree = "<group>"; };
 		66A55ADB23E8124E00642D6B /* Hambourgeoisie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hambourgeoisie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,7 +168,7 @@
 		66EBC1D523E86025001C536F /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				664CFF5623E95CAB00E6C660 /* URLRequest+MultipartFormData.swift */,
+				664CFF5623E95CAB00E6C660 /* URLRequestMultipartFormData.swift */,
 				66EBC1D723E86046001C536F /* Api.swift */,
 				66EBC1D923E86864001C536F /* ServiceLayer.swift */,
 			);
@@ -319,7 +319,7 @@
 				66A55B0123E8136000642D6B /* RestaurantShow.swift in Sources */,
 				66EBC1D823E86046001C536F /* Api.swift in Sources */,
 				66EBC1D023E843CE001C536F /* RestaurantCreateViewController.swift in Sources */,
-				664CFF5723E95CAB00E6C660 /* URLRequest+MultipartFormData.swift in Sources */,
+				664CFF5723E95CAB00E6C660 /* URLRequestMultipartFormData.swift in Sources */,
 				66EBC1D223E84416001C536F /* RestaurantTableViewController.swift in Sources */,
 				66A55B0723E8142B00642D6B /* RestaurantTableViewCell.swift in Sources */,
 				66A55ADF23E8124E00642D6B /* AppDelegate.swift in Sources */,
