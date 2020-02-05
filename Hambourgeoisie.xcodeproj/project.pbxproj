@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6609221B23E9AEFA00533E44 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 6609221A23E9AEFA00533E44 /* Nuke */; };
 		664CFF6023E9651700E6C660 /* TPKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; };
 		664CFF6123E9652D00E6C660 /* TPKeyboardAvoidingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		665BF42C23EB25240070BEB7 /* RestaurantUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */; };
+		666BB76823EAAC5100C13B97 /* RestaurantUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BB76723EAAC5100C13B97 /* RestaurantUpdate.swift */; };
+		666BB76A23EAB2A100C13B97 /* RestaurantShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */; };
 		6699589623E970C200DDC000 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
 		66A45B6123E97A570026DFF2 /* URLRequest+MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A45B6023E97A570026DFF2 /* URLRequest+MultipartFormData.swift */; };
 		66A55ADF23E8124E00642D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A55ADE23E8124E00642D6B /* AppDelegate.swift */; };
@@ -20,6 +24,7 @@
 		66A55B0123E8136000642D6B /* RestaurantShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A55B0023E8136000642D6B /* RestaurantShow.swift */; };
 		66A55B0323E813AF00642D6B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A55B0223E813AF00642D6B /* RatingControl.swift */; };
 		66A55B0723E8142B00642D6B /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A55B0623E8142B00642D6B /* RestaurantTableViewCell.swift */; };
+		66AA797A23EAB89600111A8E /* IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AA797923EAB89600111A8E /* IntegrationTests.swift */; };
 		66EBC1CC23E83F81001C536F /* UITextView+Placeholder in Frameworks */ = {isa = PBXBuildFile; productRef = 66EBC1CB23E83F81001C536F /* UITextView+Placeholder */; };
 		66EBC1CE23E84297001C536F /* RestaurantCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBC1CD23E84297001C536F /* RestaurantCreate.swift */; };
 		66EBC1D023E843CE001C536F /* RestaurantCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBC1CF23E843CE001C536F /* RestaurantCreateViewController.swift */; };
@@ -55,6 +60,9 @@
 
 /* Begin PBXFileReference section */
 		664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPKeyboardAvoidingKit.framework; path = Carthage/Build/iOS/TPKeyboardAvoidingKit.framework; sourceTree = "<group>"; };
+		665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUnitTests.swift; sourceTree = "<group>"; };
+		666BB76723EAAC5100C13B97 /* RestaurantUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdate.swift; sourceTree = "<group>"; };
+		666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantShowTests.swift; sourceTree = "<group>"; };
 		6699589523E970C200DDC000 /* ScopeAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScopeAgent.framework; path = Carthage/Build/iOS/ScopeAgent.framework; sourceTree = "<group>"; };
 		66A45B6023E97A570026DFF2 /* URLRequest+MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+MultipartFormData.swift"; sourceTree = "<group>"; };
 		66A55ADB23E8124E00642D6B /* Hambourgeoisie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hambourgeoisie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +78,7 @@
 		66A55B0023E8136000642D6B /* RestaurantShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantShow.swift; sourceTree = "<group>"; };
 		66A55B0223E813AF00642D6B /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		66A55B0623E8142B00642D6B /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		66AA797923EAB89600111A8E /* IntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationTests.swift; sourceTree = "<group>"; };
 		66EBC1CD23E84297001C536F /* RestaurantCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCreate.swift; sourceTree = "<group>"; };
 		66EBC1CF23E843CE001C536F /* RestaurantCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCreateViewController.swift; sourceTree = "<group>"; };
 		66EBC1D123E84416001C536F /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6609221B23E9AEFA00533E44 /* Nuke in Frameworks */,
 				66EBC1CC23E83F81001C536F /* UITextView+Placeholder in Frameworks */,
 				664CFF6023E9651700E6C660 /* TPKeyboardAvoidingKit.framework in Frameworks */,
 			);
@@ -131,6 +141,7 @@
 				66EBC1CF23E843CE001C536F /* RestaurantCreateViewController.swift */,
 				66A55B0023E8136000642D6B /* RestaurantShow.swift */,
 				66EBC1D323E84435001C536F /* RestaurantShowViewController.swift */,
+				666BB76723EAAC5100C13B97 /* RestaurantUpdate.swift */,
 				66A55AE423E8124E00642D6B /* Main.storyboard */,
 				66A55AE723E8125100642D6B /* Assets.xcassets */,
 				66A55AE923E8125100642D6B /* LaunchScreen.storyboard */,
@@ -143,6 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				66A55AF523E8125100642D6B /* RestaurantCreateTests.swift */,
+				665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */,
+				666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */,
+				66AA797923EAB89600111A8E /* IntegrationTests.swift */,
 				66A55AF723E8125100642D6B /* Info.plist */,
 			);
 			path = HambourgeoisieTests;
@@ -194,6 +208,7 @@
 			name = Hambourgeoisie;
 			packageProductDependencies = (
 				66EBC1CB23E83F81001C536F /* UITextView+Placeholder */,
+				6609221A23E9AEFA00533E44 /* Nuke */,
 			);
 			productName = Hambourgeoisie;
 			productReference = 66A55ADB23E8124E00642D6B /* Hambourgeoisie.app */;
@@ -248,6 +263,7 @@
 			mainGroup = 66A55AD223E8124E00642D6B;
 			packageReferences = (
 				66EBC1CA23E83F81001C536F /* XCRemoteSwiftPackageReference "UITextView-Placeholder" */,
+				6609221923E9AEFA00533E44 /* XCRemoteSwiftPackageReference "Nuke" */,
 			);
 			productRefGroup = 66A55ADC23E8124E00642D6B /* Products */;
 			projectDirPath = "";
@@ -321,6 +337,7 @@
 				66EBC1D823E86046001C536F /* Api.swift in Sources */,
 				66EBC1D023E843CE001C536F /* RestaurantCreateViewController.swift in Sources */,
 				66EBC1D223E84416001C536F /* RestaurantTableViewController.swift in Sources */,
+				666BB76823EAAC5100C13B97 /* RestaurantUpdate.swift in Sources */,
 				66A55B0723E8142B00642D6B /* RestaurantTableViewCell.swift in Sources */,
 				66A55ADF23E8124E00642D6B /* AppDelegate.swift in Sources */,
 				66A55B0323E813AF00642D6B /* RatingControl.swift in Sources */,
@@ -334,7 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665BF42C23EB25240070BEB7 /* RestaurantUnitTests.swift in Sources */,
 				66A55AF623E8125100642D6B /* RestaurantCreateTests.swift in Sources */,
+				666BB76A23EAB2A100C13B97 /* RestaurantShowTests.swift in Sources */,
+				66AA797A23EAB89600111A8E /* IntegrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +639,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		6609221923E9AEFA00533E44 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
 		66EBC1CA23E83F81001C536F /* XCRemoteSwiftPackageReference "UITextView-Placeholder" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/UITextView-Placeholder";
@@ -630,6 +658,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6609221A23E9AEFA00533E44 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6609221923E9AEFA00533E44 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
 		66EBC1CB23E83F81001C536F /* UITextView+Placeholder */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 66EBC1CA23E83F81001C536F /* XCRemoteSwiftPackageReference "UITextView-Placeholder" */;

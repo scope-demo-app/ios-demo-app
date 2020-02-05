@@ -13,7 +13,7 @@ import UIKit
 
     private var ratingButtons = [UIButton]()
 
-    var rating = 0 {
+    var rating: Double = 0 {
         didSet {
             updateButtonSelectionStates()
         }
@@ -53,12 +53,12 @@ import UIKit
         // Calculate the rating of the selected button
         let selectedRating = index + 1
 
-        if selectedRating == rating {
+        if Double(selectedRating) == rating {
             // If the selected star represents the current rating, reset the rating to 0.
             rating = 0
         } else {
             // Otherwise set the rating to the selected star
-            rating = selectedRating
+            rating = Double(selectedRating)
         }
     }
 
@@ -112,11 +112,11 @@ import UIKit
     private func updateButtonSelectionStates() {
         for (index, button) in ratingButtons.enumerated() {
             // If the index of a button is less than the rating, that button should be selected.
-            button.isSelected = index < rating
+            button.isSelected = Double(index) < rating
 
             // Set accessibility hint and value
             let hintString: String?
-            if rating == index + 1 {
+            if rating == Double(index + 1) {
                 hintString = "Tap to reset the rating to zero."
             } else {
                 hintString = nil

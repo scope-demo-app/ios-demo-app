@@ -9,25 +9,43 @@
 import os.log
 import UIKit
 
+struct Image: Codable {
+    var mimeType: String
+    var data: Data
+}
+
 class RestaurantCreate: NSObject, Codable {
     var name: String
-    var photoData: Data?
+    var images: [Image]?
     var desc: String?
 
-    init?(name: String, photo: Data?, desc: String?) {
+    init?(name: String, images: [Image]?, desc: String?) {
         // The name must not be empty
         guard !name.isEmpty else {
             return nil
         }
         // Initialize stored properties.
         self.name = name
-        self.photoData = photo
+        self.images = images
+        self.desc = desc
+    }
+
+    init?(name: String, image: Data?, desc: String?) {
+        // The name must not be empty
+        guard !name.isEmpty else {
+            return nil
+        }
+        // Initialize stored properties.
+        self.name = name
+        if(image != nil) {
+            self.images = [Image(mimeType: "image/jpeg", data: image!)]
+        }
         self.desc = desc
     }
 
     enum CodingKeys: String, CodingKey {
         case name
-        case photoData = "photos"
+        case images
         case desc = "description"
     }
 }

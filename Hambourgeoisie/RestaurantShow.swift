@@ -14,21 +14,25 @@ class RestaurantShow: NSObject, Codable {
 
     var name: String
     var id: String
-    var photos: [Data]?
-    var rating: Int
+    var images: [String]?
+    var rating: Double?
     var desc: String?
+   // var latitude: Double?
+   // var longitude: Double?
 
     enum CodingKeys: String, CodingKey {
         case name
         case id
-        case photos
+        case images
         case rating
         case desc = "description"
+      //  case latitude
+     //   case longitude
     }
 
     // MARK: Initialization
 
-    init?(id: String, name: String, photos: [Data]?, rating: Int, desc: String?) {
+    init?(id: String, name: String, images: [String]?, rating: Double, desc: String?) {
         // The name must not be empty
         guard !name.isEmpty else {
             return nil
@@ -47,7 +51,7 @@ class RestaurantShow: NSObject, Codable {
         // Initialize stored properties.
         self.name = name
         self.id = id
-        self.photos = photos
+        self.images = images
         self.rating = rating
         self.desc = desc
     }

@@ -6,6 +6,7 @@
 //  Copyright © 2016 Apple Inc. All rights reserved.
 //
 
+import Nuke
 import os.log
 import UIKit
 
@@ -20,12 +21,14 @@ class RestaurantTableViewController: UITableViewController {
         // Use the edit button item provided by the table view controller.
         navigationItem.leftBarButtonItem = editButtonItem
 
+        // We dont want to initialize view when testing
+        if ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil {
+            return
+        }
+
         // Load any saved restaurants, otherwise load sample data.
-        if let savedRestaurants = loadRestaurants() {
-            restaurants += savedRestaurants
-        } else {
-            // Load the sample data.
-            loadSampleRestaurants()
+        DispatchQueue.global(qos: .userInitiated).async {
+            self.reloadAllRestaurants()
         }
     }
 
@@ -56,13 +59,15 @@ class RestaurantTableViewController: UITableViewController {
         let restaurant = restaurants[indexPath.row]
 
         cell.nameLabel.text = restaurant.name
-        if let data = restaurant.photos?.first {
-            cell.photoImageView.image = UIImage(data: data)
+        if let path = restaurant.images?.first,
+            let url = GlobalData.completeURLforResource(resource: path) {
+            print("loading image \(url)")
+            Nuke.loadImage(with: url, into: cell.photoImageView)
         } else {
             cell.photoImageView.image = UIImage(named: "defaultPhoto")
         }
 
-        cell.ratingControl.rating = restaurant.rating
+        cell.ratingControl.rating = restaurant.rating ?? 0
 
         return cell
     }
@@ -80,13 +85,13 @@ class RestaurantTableViewController: UITableViewController {
             restaurants.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
 
-            ServiceLayer.request(api: .deleteRestaurant(restaurants[indexPath.row].id)) { (result: Result<RestaurantShow, Error>) in
+            ServiceLayer.request(api: .deleteRestaurant(restaurants[indexPath.row].id)) { (result: Result<String, Error>) in
                 switch result {
                 case .success:
-                    os_log("The restaurant was deleted", log: OSLog.default, type: .debug)
+                    print("The restaurant was deleted")
 
                 case .failure:
-                    os_log("Te restaurant could not be deleted", log: OSLog.default, type: .debug)
+                    print("The restaurant could not be deleted")
                 }
             }
         }
@@ -100,7 +105,7 @@ class RestaurantTableViewController: UITableViewController {
 
         switch segue.identifier ?? "" {
         case "AddItem":
-            os_log("Adding a new restaurant.", log: OSLog.default, type: .debug)
+            print("Adding a new restaurant.")
 
         case "ShowDetail":
             guard let restaurantDetailViewController = segue.destination as? RestaurantShowViewController else {
@@ -130,11 +135,7 @@ class RestaurantTableViewController: UITableViewController {
             if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 // Update an existing restaurant.
                 restaurants[selectedIndexPath.row] = restaurant
-                DispatchQueue.main.async {
-                    self.tableView.reloadData()
-                    //self.tableView.reloadRows(at: [selectedIndexPath], with: .none)
-                }
-                ServiceLayer.request(api: .editRestaurant(restaurant)) { (result: Result<RestaurantShow, Error>) in
+                ServiceLayer.request(api: .updateRestaurant(RestaurantUpdate(restaurantShow: restaurant))) { (result: Result<String, Error>) in
                     switch result {
                     case .success:
                         print(result)
@@ -142,16 +143,17 @@ class RestaurantTableViewController: UITableViewController {
                         print(result)
                     }
                 }
+                reloadAllRestaurants()
             }
 
         } else if let sourceViewController = sender.source as? RestaurantCreateViewController,
             let restaurant = sourceViewController.restaurant {
             // Add a new restaurant.
-            ServiceLayer.request(api: .createRestaurant(restaurant)) { [weak self] (result: Result<RestaurantCreate, Error>) in
+            ServiceLayer.request(api: .createRestaurant(restaurant)) { [weak self] (result: Result<RestaurantShow, Error>) in
                 switch result {
                 case .success:
                     print(result)
-                    self?.tableView.reloadData()
+                    self?.reloadAllRestaurants()
                 case .failure:
                     print(result)
                 }
@@ -161,24 +163,35 @@ class RestaurantTableViewController: UITableViewController {
 
     // MARK: Private Methods
 
+    private func reloadAllRestaurants() {
+        if let allRestaurants = loadRestaurants() {
+            restaurants = allRestaurants
+        } else {
+            print("The restaurants could not be loaded")
+        }
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
+
     private func loadSampleRestaurants() {
-        let photo1 = UIImage(named: "restaurant1")?.jpegData(compressionQuality: 0.5)
-        let photo2 = UIImage(named: "restaurant2")?.jpegData(compressionQuality: 0.5)
-        let photo3 = UIImage(named: "restaurant3")?.jpegData(compressionQuality: 0.5)
-
-        guard let restaurant1 = RestaurantShow(id: "666", name: "La fabrica 21", photos: [photo1!], rating: 4, desc: "") else {
-            fatalError("Unable to instantiate restaurant1")
-        }
-
-        guard let restaurant2 = RestaurantShow(id: "666", name: "Casa Dani", photos: [photo2!], rating: 5, desc: "") else {
-            fatalError("Unable to instantiate restaurant2")
-        }
-
-        guard let restaurant3 = RestaurantShow(id: "666", name: "Mad Grill", photos: [photo3!], rating: 3, desc: "") else {
-            fatalError("Unable to instantiate restaurant2")
-        }
-
-        restaurants += [restaurant1, restaurant2, restaurant3]
+//        let photo1 = "https://u.tfstatic.com/restaurant_photos/121/311121/169/612/la-fabrica-21-entrada-1d13d.jpg")
+//        let photo2 = "https://imag.bonviveur.es/articulos/vista-exterior-de-la-cafeteria-restaurante-casa-dani-de-madrid.jpg");
+//        let photo3 = "https://u.tfstatic.com/restaurant_photos/725/281725/169/612/mad-grill-vista-entrada-2288b.jpg")
+//
+//        guard let restaurant1 = RestaurantShow(id: "888", name: "La fabrica 21", photos: [photo1!], rating: 4, desc: "") else {
+//            fatalError("Unable to instantiate restaurant1")
+//        }
+//
+//        guard let restaurant2 = RestaurantShow(id: "888", name: "Casa Dani", photos: [photo2!], rating: 5, desc: "") else {
+//            fatalError("Unable to instantiate restaurant2")
+//        }
+//
+//        guard let restaurant3 = RestaurantShow(id: "888", name: "Mad Grill", photos: [photo3!], rating: 3, desc: "") else {
+//            fatalError("Unable to instantiate restaurant2")
+//        }
+//
+//        restaurants += [restaurant1, restaurant2, restaurant3]
     }
 
     private func loadRestaurants() -> [RestaurantShow]? {

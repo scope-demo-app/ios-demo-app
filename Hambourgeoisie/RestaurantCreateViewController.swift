@@ -96,16 +96,16 @@ class RestaurantCreateViewController: UIViewController, UITextFieldDelegate, UII
 
         // Configure the destination view controller only when the save button is pressed.
         guard let button = sender as? UIBarButtonItem, button === saveButton else {
-            os_log("The save button was not pressed, cancelling", log: OSLog.default, type: .debug)
+            print("The save button was not pressed, cancelling")
             return
         }
 
         let name = nameTextField.text ?? ""
-        let photo = photoImageView.image
+        let image = photoImageView.image
         let desc = descriptionTextView.text
 
         // Set the restaurant to be passed to RestaurantTableViewController after the unwind segue.
-        restaurant = RestaurantCreate(name: name, photo: photo?.jpegData(compressionQuality: 0.5), desc:desc)
+        restaurant = RestaurantCreate(name: name, image: image?.jpegData(compressionQuality: 0.5), desc:desc)
     }
 
     // MARK: Actions

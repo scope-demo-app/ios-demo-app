@@ -12,26 +12,26 @@ import XCTest
 class RestaurantCreateTests: XCTestCase {
 
     func testRestaurantCreateInitializationSucceeds() {
-        let emptyDescRestaurant = RestaurantCreate(name: "Zero", photo: nil, desc: nil)
+        let emptyDescRestaurant = RestaurantCreate(name: "Zero", image: nil, desc: nil)
         XCTAssertNotNil(emptyDescRestaurant)
 
-        let positiveRatingRestaurant = RestaurantCreate(name: "Positive", photo: nil, desc: "My description")
+        let positiveRatingRestaurant = RestaurantCreate(name: "Positive", image: nil, desc: "My description")
         XCTAssertNotNil(positiveRatingRestaurant)
     }
 
     func testRestaurantCreateInitializationFails() {
-        let emptyStringRestaurant = RestaurantCreate(name: "", photo: nil, desc: "")
+        let emptyStringRestaurant = RestaurantCreate(name: "", image: nil, desc: "")
         XCTAssertNil(emptyStringRestaurant)
     }
 
     func testRestaurantCreateInitializationElements() {
         let name = "the name"
-        let photo = Data()
+        let image = Data()
         let description = "the description"
 
-        let emptyDescRestaurant = RestaurantCreate(name: name, photo: photo, desc: description)
+        let emptyDescRestaurant = RestaurantCreate(name: name, image: image, desc: description)
         XCTAssertEqual(name, name)
-        XCTAssertEqual(photo, photo)
+        XCTAssertEqual(image, image)
         XCTAssertEqual(description, description)
     }
 }

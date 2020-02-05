@@ -8,24 +8,48 @@
 
 import Foundation
 
+struct GlobalData {
+    static let scheme = "http"
+    static let host = "192.168.1.28"
+    static let port = 8081
+
+
+    static func completeURLforResource(resource: String?) -> URL? {
+        guard let resource = resource else { return nil}
+        var components = URLComponents()
+        components.host = GlobalData.host
+        components.scheme = GlobalData.scheme
+        components.port = GlobalData.port
+        components.path = resource
+        return components.url
+    }
+}
+
 enum Api {
     case createRestaurant(RestaurantCreate)
     case deleteRestaurant(String)
-    case editRestaurant(RestaurantShow)
+    case updateRestaurant(RestaurantUpdate)
     case getRestaurant(String)
     case getRestaurants(String?)
 
     var scheme: String {
         switch self {
-        case .createRestaurant, .deleteRestaurant, .editRestaurant, .getRestaurant, .getRestaurants:
-            return "http"
+        case .createRestaurant, .deleteRestaurant, .updateRestaurant, .getRestaurant, .getRestaurants:
+            return GlobalData.scheme
         }
     }
 
     var host: String {
         switch self {
         default:
-            return "192.168.1.215:8081"
+            return GlobalData.host
+        }
+    }
+
+    var port: Int? {
+        switch self {
+        default:
+            return GlobalData.port
         }
     }
 
@@ -35,7 +59,7 @@ enum Api {
             return "/restaurants"
         case let .deleteRestaurant(id):
             return "/restaurants/\(id)"
-        case let .editRestaurant(id):
+        case let .updateRestaurant(id):
             return "/restaurants/\(id)"
         case let .getRestaurant(id):
             return "/restaurants/\(id)"
@@ -44,15 +68,15 @@ enum Api {
         }
     }
 
-    var parameters: [URLQueryItem] {
+    var parameters: [URLQueryItem]? {
         switch self {
-        case .createRestaurant, .deleteRestaurant, .editRestaurant, .getRestaurant:
+        case .createRestaurant, .deleteRestaurant, .updateRestaurant, .getRestaurant:
             return []
         case let .getRestaurants(string):
             if string != nil {
                 return [URLQueryItem(name: "name", value: string)]
             } else {
-                return []
+                return nil
             }
         }
     }
@@ -63,7 +87,7 @@ enum Api {
             return "POST"
         case .deleteRestaurant:
             return "DELETE"
-        case .editRestaurant:
+        case .updateRestaurant:
             return "PATCH"
         case .getRestaurant, .getRestaurants:
             return "GET"
@@ -74,7 +98,7 @@ enum Api {
         switch self {
         case .createRestaurant(let restaurant):
             return try? JSONEncoder().encode(restaurant)
-        case .editRestaurant(let restaurant):
+        case .updateRestaurant(let restaurant):
             return try? JSONEncoder().encode(restaurant)
         case .deleteRestaurant, .getRestaurant, .getRestaurants:
             return nil

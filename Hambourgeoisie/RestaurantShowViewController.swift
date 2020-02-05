@@ -9,6 +9,7 @@
 import os.log
 import UIKit
 import UITextView_Placeholder
+import Nuke
 
 class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     // MARK: Properties
@@ -18,6 +19,8 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
     @IBOutlet var ratingControl: RatingControl!
     @IBOutlet var saveButton: UIBarButtonItem!
     @IBOutlet weak var descriptionTextView: UITextView!
+
+    var photoURL:String? = nil
 
     /*
      This value is either passed by `RestaurantTableViewController` in `prepare(for:sender:)`
@@ -35,12 +38,13 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
         if let restaurant = restaurant {
             navigationItem.title = restaurant.name
             nameTextField.text = restaurant.name
-            if let data = restaurant.photos?.first {
-                photoImageView.image = UIImage(data: data)
+            if let url = restaurant.images?.first,
+                let photoURL = GlobalData.completeURLforResource(resource: url) {
+                Nuke.loadImage(with: photoURL, into: photoImageView)
             } else {
                 photoImageView.image = UIImage(named: "defaultPhoto")
             }
-            ratingControl.rating = restaurant.rating
+            ratingControl.rating = restaurant.rating ?? 0.0
             descriptionTextView.text = restaurant.desc
         }
         // Enable the Save button only if the text field has a valid Restaurant name.
@@ -109,17 +113,16 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
 
         // Configure the destination view controller only when the save button is pressed.
         guard let button = sender as? UIBarButtonItem, button === saveButton else {
-            os_log("The save button was not pressed, cancelling", log: OSLog.default, type: .debug)
+            print("The save button was not pressed, cancelling")
             return
         }
 
         let name = nameTextField.text ?? ""
-        let photoData = photoImageView.image?.jpegData(compressionQuality: 0.5)
         let rating = ratingControl.rating
         let desc = descriptionTextView.text
 
         // Set the restaurant to be passed to RestaurantTableViewController after the unwind segue.
-        restaurant = RestaurantShow(id: "", name: name, photos: (photoData != nil) ? [photoData!] : nil, rating: rating, desc:desc)
+        restaurant = RestaurantShow(id: "", name: name, images:(photoURL != nil) ? [photoURL!] : nil, rating: rating, desc:desc)
     }
 
     // MARK: Actions
