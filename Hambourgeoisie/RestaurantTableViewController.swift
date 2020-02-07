@@ -139,7 +139,7 @@ class RestaurantTableViewController: UITableViewController {
             if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 // Update an existing restaurant.
                 restaurants[selectedIndexPath.row] = restaurant
-                ServiceLayer.request(api: .updateRestaurant(RestaurantUpdate(restaurantShow: restaurant))) { (result: Result<String, Error>) in
+                ServiceLayer.request(api: .updateRestaurant(restaurant.id, RestaurantUpdateData(restaurantShow: restaurant))) { (result: Result<String, Error>) in
                     switch result {
                     case .success:
                         print(result)

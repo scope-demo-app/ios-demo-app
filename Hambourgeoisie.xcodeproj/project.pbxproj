@@ -14,7 +14,7 @@
 		664CFF6123E9652D00E6C660 /* TPKeyboardAvoidingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		665BF42C23EB25240070BEB7 /* RestaurantUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */; };
 		665BF43023EC08D30070BEB7 /* RestaurantUncertainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */; };
-		666BB76823EAAC5100C13B97 /* RestaurantUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BB76723EAAC5100C13B97 /* RestaurantUpdate.swift */; };
+		666BB76823EAAC5100C13B97 /* RestaurantUpdateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BB76723EAAC5100C13B97 /* RestaurantUpdateData.swift */; };
 		666BB76A23EAB2A100C13B97 /* RestaurantShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */; };
 		6699589623E970C200DDC000 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
 		66A45B6123E97A570026DFF2 /* URLRequest+MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A45B6023E97A570026DFF2 /* URLRequest+MultipartFormData.swift */; };
@@ -66,7 +66,7 @@
 		664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPKeyboardAvoidingKit.framework; path = Carthage/Build/iOS/TPKeyboardAvoidingKit.framework; sourceTree = "<group>"; };
 		665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUnitTests.swift; sourceTree = "<group>"; };
 		665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUncertainTests.swift; sourceTree = "<group>"; };
-		666BB76723EAAC5100C13B97 /* RestaurantUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdate.swift; sourceTree = "<group>"; };
+		666BB76723EAAC5100C13B97 /* RestaurantUpdateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdateData.swift; sourceTree = "<group>"; };
 		666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantShowTests.swift; sourceTree = "<group>"; };
 		6699589523E970C200DDC000 /* ScopeAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScopeAgent.framework; path = Carthage/Build/iOS/ScopeAgent.framework; sourceTree = "<group>"; };
 		66A45B6023E97A570026DFF2 /* URLRequest+MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+MultipartFormData.swift"; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 				66EBC1CF23E843CE001C536F /* RestaurantCreateViewController.swift */,
 				66A55B0023E8136000642D6B /* RestaurantShow.swift */,
 				66EBC1D323E84435001C536F /* RestaurantShowViewController.swift */,
-				666BB76723EAAC5100C13B97 /* RestaurantUpdate.swift */,
+				666BB76723EAAC5100C13B97 /* RestaurantUpdateData.swift */,
 				66A55AE423E8124E00642D6B /* Main.storyboard */,
 				66A55AE723E8125100642D6B /* Assets.xcassets */,
 				66A55AE923E8125100642D6B /* LaunchScreen.storyboard */,
@@ -344,7 +344,7 @@
 				66EBC1D823E86046001C536F /* Api.swift in Sources */,
 				66EBC1D023E843CE001C536F /* RestaurantCreateViewController.swift in Sources */,
 				66EBC1D223E84416001C536F /* RestaurantTableViewController.swift in Sources */,
-				666BB76823EAAC5100C13B97 /* RestaurantUpdate.swift in Sources */,
+				666BB76823EAAC5100C13B97 /* RestaurantUpdateData.swift in Sources */,
 				66A55B0723E8142B00642D6B /* RestaurantTableViewCell.swift in Sources */,
 				66A55ADF23E8124E00642D6B /* AppDelegate.swift in Sources */,
 				66A55B0323E813AF00642D6B /* RatingControl.swift in Sources */,

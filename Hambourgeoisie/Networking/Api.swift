@@ -30,7 +30,7 @@ struct GlobalData {
 enum Api {
     case createRestaurant(RestaurantCreate)
     case deleteRestaurant(String)
-    case updateRestaurant(RestaurantUpdate)
+    case updateRestaurant(String, RestaurantUpdateData)
     case getRestaurant(String)
     case getRestaurants(String?)
 
@@ -61,7 +61,7 @@ enum Api {
             return "/restaurants"
         case let .deleteRestaurant(id):
             return "/restaurants/\(id)"
-        case let .updateRestaurant(id):
+        case let .updateRestaurant(id, _):
             return "/restaurants/\(id)"
         case let .getRestaurant(id):
             return "/restaurants/\(id)"
@@ -100,7 +100,7 @@ enum Api {
         switch self {
         case .createRestaurant(let restaurant):
             return try? JSONEncoder().encode(restaurant)
-        case .updateRestaurant(let restaurant):
+        case .updateRestaurant(_, let restaurant):
             return try? JSONEncoder().encode(restaurant)
         case .deleteRestaurant, .getRestaurant, .getRestaurants:
             return nil

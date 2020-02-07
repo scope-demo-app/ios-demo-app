@@ -1,5 +1,5 @@
 //
-//  RestaurantUpdate.swift
+//  RestaurantUpdateData.swift
 //  Hambourgeoisie
 //
 //  Created by Ignacio Bonafonte on 05/02/2020.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class RestaurantUpdate: Codable {
+class RestaurantUpdateData: Codable {
     var name: String
     var desc: String?
     var longitude: Double?

@@ -25,7 +25,6 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
 
     /*
      This value is either passed by `RestaurantTableViewController` in `prepare(for:sender:)`
-     or constructed as part of adding a new restaurant.
      */
     var restaurant: RestaurantShow?
 
@@ -123,7 +122,7 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
         let desc = descriptionTextView.text
 
         // Set the restaurant to be passed to RestaurantTableViewController after the unwind segue.
-        restaurant = RestaurantShow(id: "", name: name, images:(photoURL != nil) ? [photoURL!] : nil, rating: rating, desc:desc)
+        restaurant = RestaurantShow(id: restaurant?.id ?? "", name: name, images:(photoURL != nil) ? [photoURL!] : nil, rating: rating, desc:desc, latitude: restaurant?.latitude ?? "", longitude:  restaurant?.longitude ?? "")
     }
 
     // MARK: Actions
@@ -160,8 +159,8 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
         guard let lat = rest.latitude, let lon =  rest.longitude  else {
             return
         }
-        let latitude:CLLocationDegrees =  CLLocationDegrees(lat) as! CLLocationDegrees
-        let longitude:CLLocationDegrees =  CLLocationDegrees(lon) as! CLLocationDegrees
+        let latitude:CLLocationDegrees =  CLLocationDegrees(lat)!
+        let longitude:CLLocationDegrees =  CLLocationDegrees(lon)!
 
         let regionDistance:CLLocationDistance = 10000
         let coordinates = CLLocationCoordinate2DMake(latitude, longitude)

@@ -32,7 +32,7 @@ class RestaurantShow: NSObject, Codable {
 
     // MARK: Initialization
 
-    init?(id: String, name: String, images: [String]?, rating: Double, desc: String?) {
+    init?(id: String, name: String, images: [String]?, rating: Double, desc: String?, latitude: String? = nil, longitude: String? = nil) {
         // The name must not be empty
         guard !name.isEmpty else {
             return nil
@@ -54,6 +54,8 @@ class RestaurantShow: NSObject, Codable {
         self.images = images
         self.rating = rating
         self.desc = desc
+        self.latitude = latitude
+        self.longitude = longitude
     }
 
 }
