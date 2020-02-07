@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Nuke",
+        "repositoryURL": "https://github.com/kean/Nuke",
+        "state": {
+          "branch": null,
+          "revision": "051fb936fbc0176655acb1085b15be477f3d5015",
+          "version": "8.4.0"
+        }
+      },
+      {
+        "package": "UITextView+Placeholder",
+        "repositoryURL": "https://github.com/devxoul/UITextView-Placeholder",
+        "state": {
+          "branch": null,
+          "revision": "5a133b7efc4e8dd9de91c9eada48270d90c83ef0",
+          "version": "1.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

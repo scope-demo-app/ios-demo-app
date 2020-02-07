@@ -1,0 +1,20 @@
+name: Scope Testing
+
+on: [push]
+
+jobs:
+  scope:
+    runs-on: macOS-latest
+    
+    steps:
+      - name: Check if SCOPE_DSN is set
+        run: if [ "${{secrets.SCOPE_DSN}}" = "" ]; then exit 1; fi
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Carthage Build
+        run: carthage update
+      - name: Build and test
+        run: xcodebuild test -project Hambourgeoisie.xcodeproj -scheme Hambourgeoisie -destination 'platform=iOS Simulator,name=iPhone 11'
+        env:
+          SCOPE_DSN: ${{secrets.SCOPE_DSN}}
+
