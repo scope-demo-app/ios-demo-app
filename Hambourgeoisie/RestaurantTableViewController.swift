@@ -82,9 +82,6 @@ class RestaurantTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
-            restaurants.remove(at: indexPath.row)
-            tableView.deleteRows(at: [indexPath], with: .fade)
-
             ServiceLayer.request(api: .deleteRestaurant(restaurants[indexPath.row].id)) { (result: Result<String, Error>) in
                 switch result {
                 case .success:
@@ -94,6 +91,8 @@ class RestaurantTableViewController: UITableViewController {
                     print("The restaurant could not be deleted")
                 }
             }
+            restaurants.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
 

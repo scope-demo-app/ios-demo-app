@@ -27,11 +27,11 @@ class RestaurantCreateTests: XCTestCase {
     func testRestaurantCreateInitializationElements() {
         let name = "the name"
         let image = Data()
-        let description = "the description"
+        let desc = "the description"
 
-        let emptyDescRestaurant = RestaurantCreate(name: name, image: image, desc: description)
-        XCTAssertEqual(name, name)
-        XCTAssertEqual(image, image)
-        XCTAssertEqual(description, description)
+        let restaurant = RestaurantCreate(name: name, image: image, desc: desc)
+        XCTAssertEqual(name, restaurant?.name)
+        XCTAssertEqual(image, restaurant?.images?.first?.data)
+        XCTAssertEqual(desc, restaurant?.desc)
     }
 }

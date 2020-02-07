@@ -17,8 +17,8 @@ class RestaurantShow: NSObject, Codable {
     var images: [String]?
     var rating: Double?
     var desc: String?
-   // var latitude: Double?
-   // var longitude: Double?
+    var latitude: String?
+    var longitude: String?
 
     enum CodingKeys: String, CodingKey {
         case name
@@ -26,8 +26,8 @@ class RestaurantShow: NSObject, Codable {
         case images
         case rating
         case desc = "description"
-      //  case latitude
-     //   case longitude
+        case latitude
+        case longitude
     }
 
     // MARK: Initialization

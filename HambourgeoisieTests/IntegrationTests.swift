@@ -22,7 +22,7 @@ class IntegrationTests: XCTestCase {
         }
     }
 
-    func testCreateRestaurantInServerReturnsSameData() {
+    func testIntegrationCreateRestaurantInServerReturnsSameData() {
         let imageData = UIImage(named: "restaurant1")?.jpegData(compressionQuality: 0.5)
         let image = Image(mimeType: "image/jpeg", data: imageData!)
         let restaurant = RestaurantCreate(name: "SwiftTest", images: [image], desc: "my description")
@@ -38,6 +38,7 @@ class IntegrationTests: XCTestCase {
                 XCTAssert(true)
             case .failure:
                 XCTFail()
+                return;
             }
             expec.fulfill()
         }
@@ -53,7 +54,7 @@ class IntegrationTests: XCTestCase {
         //XCTAssertEqual(restaurant?.images?.first?.data, try? Data(contentsOf: GlobalData.completeURLforResource(resource: returnedRestaurant?.images?.first)!))
     }
 
-    func testGetRestaurantsNotEmpty() {
+    func testIntegrationGetRestaurantsNotEmpty() {
         let expec = expectation(description: "testGetRestaurantsNotEmpty")
 
         var restArray: [RestaurantShow]?
@@ -75,7 +76,7 @@ class IntegrationTests: XCTestCase {
         XCTAssertNotEqual(restArray?.count, 0)
     }
 
-    func testGetRestaurantsHaveValidPhoto() {
+    func testIntegrationGetRestaurantsHaveValidPhoto() {
         let expec = expectation(description: "testGetRestaurantsHaveValidPhoto")
 
         var restArray: [RestaurantShow]?
@@ -95,7 +96,8 @@ class IntegrationTests: XCTestCase {
         }
 
         restArray?.forEach{
-            let imageData = try? Data(contentsOf: GlobalData.completeURLforResource(resource: $0.images?.first)!)
+            guard let partialURL = $0.images?.first else { return }
+            let imageData = try? Data(contentsOf: GlobalData.completeURLforResource(resource: partialURL)!)
             let uiImage = UIImage(data: imageData ?? Data())
             XCTAssertNotNil(uiImage, "Invalid image data: restaurant:\($0.name). \n URL: \(String(describing: GlobalData.completeURLforResource(resource: $0.images?.first)))")
         }

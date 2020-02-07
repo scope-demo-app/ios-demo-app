@@ -11,6 +11,7 @@
 		664CFF6023E9651700E6C660 /* TPKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; };
 		664CFF6123E9652D00E6C660 /* TPKeyboardAvoidingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		665BF42C23EB25240070BEB7 /* RestaurantUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */; };
+		665BF43023EC08D30070BEB7 /* RestaurantUncertainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */; };
 		666BB76823EAAC5100C13B97 /* RestaurantUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BB76723EAAC5100C13B97 /* RestaurantUpdate.swift */; };
 		666BB76A23EAB2A100C13B97 /* RestaurantShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */; };
 		6699589623E970C200DDC000 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
@@ -61,6 +62,7 @@
 /* Begin PBXFileReference section */
 		664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPKeyboardAvoidingKit.framework; path = Carthage/Build/iOS/TPKeyboardAvoidingKit.framework; sourceTree = "<group>"; };
 		665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUnitTests.swift; sourceTree = "<group>"; };
+		665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUncertainTests.swift; sourceTree = "<group>"; };
 		666BB76723EAAC5100C13B97 /* RestaurantUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdate.swift; sourceTree = "<group>"; };
 		666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantShowTests.swift; sourceTree = "<group>"; };
 		6699589523E970C200DDC000 /* ScopeAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScopeAgent.framework; path = Carthage/Build/iOS/ScopeAgent.framework; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				66A55AF523E8125100642D6B /* RestaurantCreateTests.swift */,
 				665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */,
 				666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */,
+				665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */,
 				66AA797923EAB89600111A8E /* IntegrationTests.swift */,
 				66A55AF723E8125100642D6B /* Info.plist */,
 			);
@@ -353,6 +356,7 @@
 			files = (
 				665BF42C23EB25240070BEB7 /* RestaurantUnitTests.swift in Sources */,
 				66A55AF623E8125100642D6B /* RestaurantCreateTests.swift in Sources */,
+				665BF43023EC08D30070BEB7 /* RestaurantUncertainTests.swift in Sources */,
 				666BB76A23EAB2A100C13B97 /* RestaurantShowTests.swift in Sources */,
 				66AA797A23EAB89600111A8E /* IntegrationTests.swift in Sources */,
 			);

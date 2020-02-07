@@ -8,8 +8,9 @@
 
 import os.log
 import UIKit
-import UITextView_Placeholder
 import Nuke
+import UITextView_Placeholder
+import MapKit
 
 class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     // MARK: Properties
@@ -142,12 +143,37 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
         present(imagePickerController, animated: true, completion: nil)
     }
 
+    @IBAction func showInMaps(_ sender: Any) {
+        if let rest = restaurant {
+            openMapForRestaurant(rest: rest)
+        }
+    }
     // MARK: Private Methods
 
     private func updateSaveButtonState() {
         // Disable the Save button if the text field is empty.
         let text = nameTextField.text ?? ""
         saveButton.isEnabled = !text.isEmpty
+    }
+
+    private func openMapForRestaurant(rest: RestaurantShow) {
+        guard let lat = rest.latitude, let lon =  rest.longitude  else {
+            return
+        }
+        let latitude:CLLocationDegrees =  CLLocationDegrees(lat) as! CLLocationDegrees
+        let longitude:CLLocationDegrees =  CLLocationDegrees(lon) as! CLLocationDegrees
+
+        let regionDistance:CLLocationDistance = 10000
+        let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
+        let regionSpan = MKCoordinateRegion(center: coordinates, latitudinalMeters: regionDistance, longitudinalMeters: regionDistance)
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
+        ]
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "\(rest.name)"
+        mapItem.openInMaps(launchOptions: options)
     }
 }
 

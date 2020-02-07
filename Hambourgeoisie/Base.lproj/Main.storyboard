@@ -77,17 +77,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DJ6-EM-7BY" customClass="TPKeyboardAvoidingCollectionView">
-                                <rect key="frame" x="-4" y="44" width="383" height="609.5"/>
+                                <rect key="frame" x="-4" y="44" width="383" height="619"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2cd-wZ-Gpp">
-                                        <rect key="frame" x="20" y="20" width="343" height="569.5"/>
+                                        <rect key="frame" x="20" y="20" width="343" height="579"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter restaurant name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-Vk-0lJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                             </textField>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="vht-w5-DXs">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="vht-w5-DXs">
                                                 <rect key="frame" x="12" y="42" width="319" height="319"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
@@ -100,14 +100,26 @@
                                             <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="t56-bQ-7Yp" customClass="RatingControl" customModule="Hambourgeoisie" customModuleProvider="target">
                                                 <rect key="frame" x="45.5" y="369" width="252" height="44"/>
                                             </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vc-ig-CWD">
-                                                <rect key="frame" x="127.5" y="421" width="88" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="6eV-jw-B4G">
+                                                <rect key="frame" x="0.0" y="421" width="343" height="30"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vc-ig-CWD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="88" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFb-dc-nMT">
+                                                        <rect key="frame" x="247" y="0.0" width="96" height="30"/>
+                                                        <state key="normal" title="Show in Maps"/>
+                                                        <connections>
+                                                            <action selector="showInMaps:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W7V-ce-GUu"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QkD-n6-qpa">
-                                                <rect key="frame" x="0.0" y="449.5" width="343" height="120"/>
+                                                <rect key="frame" x="0.0" y="459" width="343" height="120"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="2fo-Ya-N13"/>
@@ -127,6 +139,7 @@
                                             <constraint firstItem="vht-w5-DXs" firstAttribute="leading" secondItem="2cd-wZ-Gpp" secondAttribute="leading" constant="12" id="0RE-DG-OkQ"/>
                                             <constraint firstItem="QkD-n6-qpa" firstAttribute="leading" secondItem="Cqs-Vk-0lJ" secondAttribute="leading" id="1ja-V4-tYb"/>
                                             <constraint firstAttribute="trailing" secondItem="Cqs-Vk-0lJ" secondAttribute="trailing" id="IJs-2u-fom"/>
+                                            <constraint firstItem="6eV-jw-B4G" firstAttribute="leading" secondItem="QkD-n6-qpa" secondAttribute="leading" id="e3U-rp-05Q"/>
                                             <constraint firstAttribute="trailing" secondItem="vht-w5-DXs" secondAttribute="trailing" constant="12" id="kc0-bZ-3AQ"/>
                                             <constraint firstItem="QkD-n6-qpa" firstAttribute="trailing" secondItem="Cqs-Vk-0lJ" secondAttribute="trailing" id="nhK-kx-Yuu"/>
                                         </constraints>

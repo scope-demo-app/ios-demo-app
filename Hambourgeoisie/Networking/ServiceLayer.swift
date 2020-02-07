@@ -8,6 +8,10 @@
 
 import Foundation
 
+enum ServerError: Error {
+    case remoteError
+}
+
 class ServiceLayer {
     class func request<T: Codable>(api: Api, completion: @escaping (Result<T, Error>) -> Void) {
         var components = URLComponents()
@@ -15,7 +19,10 @@ class ServiceLayer {
         components.host = api.host
         components.path = api.path
         components.queryItems = api.parameters
-        components.port = api.port
+
+        if api.port != nil {
+            components.port = api.port
+        }
 
         guard let url = components.url else { return }
         var urlRequest = URLRequest(url: url)
@@ -35,6 +42,16 @@ class ServiceLayer {
             guard response != nil else {
                 return
             }
+
+            if let response = response as? HTTPURLResponse,  response.statusCode > 299 {
+                let error = ServerError.remoteError
+                completion(.failure(error))
+                print(error.localizedDescription)
+                return
+            }
+
+
+
             guard let data = data else {
                 return
             }

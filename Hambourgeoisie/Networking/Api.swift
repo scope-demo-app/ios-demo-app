@@ -9,9 +9,9 @@
 import Foundation
 
 struct GlobalData {
-    static let scheme = "http"
-    static let host = "192.168.1.28"
-    static let port = 8081
+    static let scheme = "https"
+    static let host = "go-demo-app.undefinedlabs.dev"
+    static let port: Int? = nil
 
 
     static func completeURLforResource(resource: String?) -> URL? {
@@ -19,7 +19,9 @@ struct GlobalData {
         var components = URLComponents()
         components.host = GlobalData.host
         components.scheme = GlobalData.scheme
-        components.port = GlobalData.port
+        if GlobalData.port != nil {
+            components.port = GlobalData.port
+        }
         components.path = resource
         return components.url
     }
