@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6609221B23E9AEFA00533E44 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 6609221A23E9AEFA00533E44 /* Nuke */; };
+		6631243223ED589B00C0AF42 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
+		6631243323ED589B00C0AF42 /* ScopeAgent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		664CFF6023E9651700E6C660 /* TPKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; };
 		664CFF6123E9652D00E6C660 /* TPKeyboardAvoidingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		665BF42C23EB25240070BEB7 /* RestaurantUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */; };
@@ -53,6 +55,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				664CFF6123E9652D00E6C660 /* TPKeyboardAvoidingKit.framework in Embed Frameworks */,
+				6631243323ED589B00C0AF42 /* ScopeAgent.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6609221B23E9AEFA00533E44 /* Nuke in Frameworks */,
+				6631243223ED589B00C0AF42 /* ScopeAgent.framework in Frameworks */,
 				66EBC1CC23E83F81001C536F /* UITextView+Placeholder in Frameworks */,
 				664CFF6023E9651700E6C660 /* TPKeyboardAvoidingKit.framework in Frameworks */,
 			);
@@ -512,6 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -537,6 +542,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

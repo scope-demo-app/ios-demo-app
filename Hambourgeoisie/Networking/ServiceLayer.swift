@@ -46,7 +46,7 @@ class ServiceLayer {
             if let response = response as? HTTPURLResponse,  response.statusCode > 299 {
                 let error = ServerError.remoteError
                 completion(.failure(error))
-                print(error.localizedDescription)
+                print("Response Status: \(response.statusCode)")
                 return
             }
 

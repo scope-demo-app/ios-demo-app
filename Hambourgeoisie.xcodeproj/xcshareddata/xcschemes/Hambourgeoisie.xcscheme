@@ -125,6 +125,18 @@
             ReferencedContainer = "container:Hambourgeoisie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "SCOPE_DSN"
+            value = "$(SCOPE_DSN)"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SCOPE_XCODE_DSN"
+            value = "$(SCOPE_XCODE_DSN)"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

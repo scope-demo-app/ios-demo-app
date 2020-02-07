@@ -30,6 +30,11 @@ class RestaurantTableViewController: UITableViewController {
         DispatchQueue.global(qos: .userInitiated).async {
             self.reloadAllRestaurants()
         }
+
+        refreshControl = UIRefreshControl()
+        refreshControl?.addTarget(self, action: #selector(refreshRestaurants(_:)), for: .valueChanged)
+        refreshControl?.tintColor = UIColor(red: 0.25, green: 0.72, blue: 0.85, alpha: 1.0)
+        refreshControl?.attributedTitle = NSAttributedString(string: "Fetching Restaurants ...", attributes: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -162,6 +167,11 @@ class RestaurantTableViewController: UITableViewController {
 
     // MARK: Private Methods
 
+    @objc private func refreshRestaurants(_ sender: Any) {
+        // Fetch Weather Data
+        reloadAllRestaurants()
+    }
+
     private func reloadAllRestaurants() {
         if let allRestaurants = loadRestaurants() {
             restaurants = allRestaurants
@@ -170,6 +180,12 @@ class RestaurantTableViewController: UITableViewController {
         }
         DispatchQueue.main.async {
             self.tableView.reloadData()
+        }
+        DispatchQueue.global().async {
+            usleep(500_000)
+            DispatchQueue.main.async {
+                self.refreshControl?.endRefreshing()
+            }
         }
     }
 
