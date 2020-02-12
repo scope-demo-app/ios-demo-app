@@ -33,7 +33,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;${SRCROOT}/Carthage/Build/iOS/ScopeAgent.framework/scope-coverage&#10;">
+               scriptText = "export SCOPE_COVERAGE_DEBUG = 1&#10;${SRCROOT}/Carthage/Build/iOS/ScopeAgent.framework/scope-coverage&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
