@@ -8,15 +8,18 @@
 
 @testable import Hambourgeoisie
 import XCTest
+import ScopeAgent
 
 class IntegrationTests: XCTestCase {
     var idRestaurantsToClean = [String]()
 
     override func setUp() {
         idRestaurantsToClean.removeAll()
+        SALogger.log("Ended setting up the test",.debug )
     }
 
     override func tearDown() {
+        SALogger.log("Start tearing down the test",.debug )
         idRestaurantsToClean.forEach {
             ServiceLayer.request(api: .deleteRestaurant($0)) { _ in }
         }
@@ -29,6 +32,7 @@ class IntegrationTests: XCTestCase {
 
         let expec = expectation(description: "testCreateRestaurantInServerReturnsSameNAme")
 
+        SALogger.log("Create a new Restaurant", .info)
         var returnedRestaurant: RestaurantShow?
         ServiceLayer.request(api: .createRestaurant(restaurant!)) { (result: Result<RestaurantShow, Error>) in
             switch result {
@@ -45,13 +49,13 @@ class IntegrationTests: XCTestCase {
 
         waitForExpectations(timeout: 30) { error in
             if let error = error {
-                print("Error: \(error.localizedDescription)")
+                SALogger.log("Error: \(error.localizedDescription)",.error)
             }
         }
-
+        SALogger.log("Check values are the same than created", .info)
         XCTAssertEqual(restaurant?.name, returnedRestaurant?.name)
         XCTAssertEqual(restaurant?.desc, returnedRestaurant?.desc)
-        // XCTAssertEqual(restaurant?.images?.first?.data, try? Data(contentsOf: GlobalData.completeURLforResource(resource: returnedRestaurant?.images?.first)!))
+        XCTAssertEqual(restaurant?.images?.first?.data, try? Data(contentsOf: GlobalData.completeURLforResource(resource: returnedRestaurant?.images?.first)!))
     }
 
     func testIntegrationGetRestaurantsNotEmpty() {
@@ -70,7 +74,7 @@ class IntegrationTests: XCTestCase {
 
         waitForExpectations(timeout: 30) { error in
             if let error = error {
-                print("Error: \(error.localizedDescription)")
+                SALogger.log("Error: \(error.localizedDescription)",.error)
             }
         }
         XCTAssertNotEqual(restArray?.count, 0)
@@ -91,7 +95,7 @@ class IntegrationTests: XCTestCase {
         }
         waitForExpectations(timeout: 30) { error in
             if let error = error {
-                print("Error: \(error.localizedDescription)")
+                SALogger.log("Error: \(error.localizedDescription)",.error)
             }
         }
 
@@ -161,7 +165,7 @@ class IntegrationTests: XCTestCase {
 
         waitForExpectations(timeout: 30) { error in
             if let error = error {
-                print("Error: \(error.localizedDescription)")
+                SALogger.log("Error: \(error.localizedDescription)",.error)
             }
         }
     }
