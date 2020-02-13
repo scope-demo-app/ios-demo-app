@@ -32,7 +32,7 @@ enum Api {
     case deleteRestaurant(String)
     case updateRestaurant(String, RestaurantUpdateData)
     case getRestaurant(String)
-    case getRestaurants(String?)
+    case getRestaurants(String?, String? = nil)
 
     var scheme: String {
         switch self {
@@ -74,9 +74,19 @@ enum Api {
         switch self {
         case .createRestaurant, .deleteRestaurant, .updateRestaurant, .getRestaurant:
             return []
-        case let .getRestaurants(string):
-            if string != nil {
-                return [URLQueryItem(name: "name", value: string)]
+        case let .getRestaurants(name, failureRate):
+            
+            var param = [URLQueryItem]()
+            if name != nil {
+                param.append(URLQueryItem(name: "name", value: name))
+            }
+            
+            if failureRate != nil {
+                param.append(URLQueryItem(name: "rs.failure", value: failureRate))
+            }
+            
+            if param.count > 0 {
+                return param
             } else {
                 return nil
             }

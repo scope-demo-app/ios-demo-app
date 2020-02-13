@@ -50,8 +50,6 @@ class ServiceLayer {
                 return
             }
 
-
-
             guard let data = data else {
                 return
             }
@@ -86,7 +84,19 @@ class ServiceLayer {
                 print(error!.localizedDescription)
                 return
             }
+            guard response != nil else {
+                return
+            }
+
+            if let response = response as? HTTPURLResponse,  response.statusCode > 299 {
+                let error = ServerError.remoteError
+                completion(.failure(error))
+                print("Response Status: \(response.statusCode)")
+                return
+            }
+
             completion(.success(""))
+
         }
         dataTask.resume()
     }
