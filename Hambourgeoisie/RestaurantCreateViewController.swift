@@ -78,6 +78,8 @@ class RestaurantCreateViewController: UIViewController, UITextFieldDelegate, UII
     // MARK: Navigation
 
     @IBAction func cancel(_ sender: UIBarButtonItem) {
+        print("cancel create")
+
         // Depending on style of presentation (modal or push presentation), this view controller needs to be dismissed in two different ways.
         let isPresentingInAddRestaurantMode = presentingViewController is UINavigationController
 
@@ -111,6 +113,8 @@ class RestaurantCreateViewController: UIViewController, UITextFieldDelegate, UII
     // MARK: Actions
 
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
+        print("Select image from photo library")
+
         // Hide the keyboard.
         nameTextField.resignFirstResponder()
 

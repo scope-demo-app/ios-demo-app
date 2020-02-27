@@ -36,6 +36,8 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
 
         // Set up views if editing an existing Restaurant.
         if let restaurant = restaurant {
+            print("Show restaurant: \(restaurant.name)")
+
             navigationItem.title = restaurant.name
             nameTextField.text = restaurant.name
             if let url = restaurant.images?.first,
@@ -77,6 +79,7 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
     }
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
+
         // Local variable inserted by Swift 4.2 migrator.
         let info = convertFromUIImagePickerControllerInfoKeyDictionary(info)
 
@@ -95,6 +98,8 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
     // MARK: Navigation
 
     @IBAction func cancel(_ sender: UIBarButtonItem) {
+        print("cancel Show")
+
         // Depending on style of presentation (modal or push presentation), this view controller needs to be dismissed in two different ways.
         let isPresentingInAddRestaurantMode = presentingViewController is UINavigationController
 
@@ -128,6 +133,8 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
     // MARK: Actions
 
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
+        print("Select image from photo library")
+
         // Hide the keyboard.
         nameTextField.resignFirstResponder()
 
@@ -143,6 +150,8 @@ class RestaurantShowViewController: UIViewController, UITextFieldDelegate, UIIma
     }
 
     @IBAction func showInMaps(_ sender: Any) {
+        print("Show in Maps")
+
         if let rest = restaurant {
             openMapForRestaurant(rest: rest)
         }

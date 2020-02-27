@@ -28,6 +28,8 @@ class ServiceLayer {
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = api.method
 
+        print("Network request; \(url.absoluteURL)")
+        
         if let data = api.data {
             urlRequest.httpBody = data
         }
@@ -72,6 +74,8 @@ class ServiceLayer {
         guard let url = components.url else { return }
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = api.method
+
+        print("Network request; \(url.absoluteURL)")
 
         if let data = api.data {
             urlRequest.httpBody = data

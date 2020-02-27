@@ -112,6 +112,7 @@ class RestaurantTableViewController: UITableViewController {
             print("Adding a new restaurant.")
 
         case "ShowDetail":
+             print("ShowDetail of a restaurant.")
             guard let restaurantDetailViewController = segue.destination as? RestaurantShowViewController else {
                 fatalError("Unexpected destination: \(segue.destination)")
             }
@@ -135,6 +136,7 @@ class RestaurantTableViewController: UITableViewController {
     // MARK: Actions
 
     @IBAction func unwindToRestaurantList(sender: UIStoryboardSegue) {
+        print("unwindToRestaurantList")
         if let sourceViewController = sender.source as? RestaurantShowViewController, let restaurant = sourceViewController.restaurant {
             if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 // Update an existing restaurant.
@@ -173,6 +175,7 @@ class RestaurantTableViewController: UITableViewController {
     }
 
     private func reloadAllRestaurants() {
+        print("Reload all restaurants")
         if let allRestaurants = loadRestaurants() {
             restaurants = allRestaurants
         } else {
@@ -210,6 +213,7 @@ class RestaurantTableViewController: UITableViewController {
     }
 
     private func loadRestaurants() -> [RestaurantShow]? {
+        print("Load reataurants")
         var restArray: [RestaurantShow]?
         let semaphore = DispatchSemaphore(value: 0)
         ServiceLayer.request(api: .getRestaurants(nil)) { (result: Result<[RestaurantShow], Error>) in
@@ -220,6 +224,7 @@ class RestaurantTableViewController: UITableViewController {
                 print(result)
             }
             semaphore.signal()
+            print("Load restaurants request ended")
         }
         semaphore.wait()
         return restArray

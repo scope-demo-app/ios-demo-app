@@ -7,19 +7,19 @@
 //
 
 @testable import Hambourgeoisie
-import XCTest
 import ScopeAgent
+import XCTest
 
 class IntegrationTests: XCTestCase {
     var idRestaurantsToClean = [String]()
 
     override func setUp() {
         idRestaurantsToClean.removeAll()
-        SALogger.log("Ended setting up the test",.debug )
+        SALogger.log("Ended setting up the test", .debug)
     }
 
     override func tearDown() {
-        SALogger.log("Start tearing down the test",.debug )
+        SALogger.log("Start tearing down the test", .debug)
         idRestaurantsToClean.forEach {
             ServiceLayer.request(api: .deleteRestaurant($0)) { _ in }
         }
@@ -49,7 +49,7 @@ class IntegrationTests: XCTestCase {
 
         waitForExpectations(timeout: 30) { error in
             if let error = error {
-                SALogger.log("Error: \(error.localizedDescription)",.error)
+                SALogger.log("Error: \(error.localizedDescription)", .error)
             }
         }
         SALogger.log("Check values are the same than created", .info)
@@ -62,19 +62,22 @@ class IntegrationTests: XCTestCase {
         let expec = expectation(description: "testGetRestaurantsNotEmpty")
 
         var restArray: [RestaurantShow]?
+        SALogger.log("Geting restaurants", .info)
         ServiceLayer.request(api: .getRestaurants(nil)) { (result: Result<[RestaurantShow], Error>) in
             switch result {
             case let .success(array):
+                SALogger.log("Rstaurants: \(array)", .info)
+
                 restArray = array
             case .failure:
-                print(result)
+                SALogger.log("Error: \(result)", .error)
             }
             expec.fulfill()
         }
 
         waitForExpectations(timeout: 30) { error in
             if let error = error {
-                SALogger.log("Error: \(error.localizedDescription)",.error)
+                SALogger.log("Error: \(error.localizedDescription)", .error)
             }
         }
         XCTAssertNotEqual(restArray?.count, 0)
@@ -95,15 +98,16 @@ class IntegrationTests: XCTestCase {
         }
         waitForExpectations(timeout: 30) { error in
             if let error = error {
-                SALogger.log("Error: \(error.localizedDescription)",.error)
+                SALogger.log("Error: \(error.localizedDescription)", .error)
             }
         }
 
         restArray?.forEach {
             guard let partialURL = $0.images?.first else { return }
             let imageData = try? Data(contentsOf: GlobalData.completeURLforResource(resource: partialURL)!)
+            SALogger.log("Trying to load: \(GlobalData.completeURLforResource(resource: partialURL)!)", .info)
             let uiImage = UIImage(data: imageData ?? Data())
-           // XCTAssertNotNil(uiImage, "Invalid image data: restaurant:\($0.name). \n URL: \(String(describing: GlobalData.completeURLforResource(resource: $0.images?.first)))")
+            // XCTAssertNotNil(uiImage, "Invalid image data: restaurant:\($0.name). \n URL: \(String(describing: GlobalData.completeURLforResource(resource: $0.images?.first)))")
         }
     }
 
@@ -120,6 +124,8 @@ class IntegrationTests: XCTestCase {
         let expec = expectation(description: "testIntegrationModifyRestaurantName")
 
         let semaphore = DispatchSemaphore(value: 0)
+
+        SALogger.log("Create a new Restaurant: \(restaurant!)", .info)
 
         var returnedRestaurant: RestaurantShow?
         ServiceLayer.request(api: .createRestaurant(restaurant!)) { (result: Result<RestaurantShow, Error>) in
@@ -139,6 +145,8 @@ class IntegrationTests: XCTestCase {
         let newData = RestaurantUpdateData(restaurantShow: returnedRestaurant!)
         newData.name = updatedName
         newData.desc = updatedDescription
+        SALogger.log("Modify the restaurant: \(newData)", .info)
+
         ServiceLayer.request(api: .updateRestaurant(returnedRestaurant!.id, newData)) { (result: Result<String, Error>) in
             switch result {
             case .success:
@@ -150,6 +158,8 @@ class IntegrationTests: XCTestCase {
             semaphore.signal()
         }
         semaphore.wait()
+
+        SALogger.log("Get updated data: \(newData)", .info)
 
         ServiceLayer.request(api: .getRestaurant(returnedRestaurant!.id)) { (result: Result<RestaurantShow, Error>) in
             switch result {
@@ -165,7 +175,7 @@ class IntegrationTests: XCTestCase {
 
         waitForExpectations(timeout: 30) { error in
             if let error = error {
-                SALogger.log("Error: \(error.localizedDescription)",.error)
+                SALogger.log("Error: \(error.localizedDescription)", .error)
             }
         }
     }
