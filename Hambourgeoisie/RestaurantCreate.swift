@@ -18,6 +18,13 @@ class RestaurantCreate: NSObject, Codable {
     var name: String
     var images: [Image]?
     var desc: String?
+    
+    override var description: String {
+        "--RestaurantCreate--\n" +
+            "name: \(name)\n" +
+            "images: \(images?.count ?? 0)\n" +
+            "longitude: \(String(describing: desc))\n"
+    }
 
     init?(name: String, images: [Image]?, desc: String?) {
         // The name must not be empty

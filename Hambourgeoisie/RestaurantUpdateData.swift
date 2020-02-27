@@ -8,11 +8,19 @@
 
 import Foundation
 
-class RestaurantUpdateData: Codable {
+class RestaurantUpdateData: Codable, CustomStringConvertible {
     var name: String
     var desc: String?
     var longitude: Double?
     var latitude: Double?
+
+    var description: String {
+        "--RestaurantUpdateData--\n" +
+            "name: \(name)\n" +
+            "desc: \(String(describing: desc))\n" +
+            "longitude: \(String(describing: longitude))\n" +
+            "latitude: \(String(describing: latitude))\n"
+    }
 
     init?(name: String, desc: String?, longitude: Double?, latitude: Double?) {
         // The name must not be empty
@@ -26,12 +34,11 @@ class RestaurantUpdateData: Codable {
         self.latitude = latitude
     }
 
-    init(restaurantShow: RestaurantShow)
-    {
-        self.name = restaurantShow.name
-        self.desc = restaurantShow.desc
+    init(restaurantShow: RestaurantShow) {
+        name = restaurantShow.name
+        desc = restaurantShow.desc
 //        self.longitude = restaurantShow.longitude
-   //     self.latitude = restaurantShow.latitude
+        //     self.latitude = restaurantShow.latitude
     }
 
     enum CodingKeys: String, CodingKey {

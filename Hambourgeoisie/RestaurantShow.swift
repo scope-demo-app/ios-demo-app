@@ -20,6 +20,16 @@ class RestaurantShow: NSObject, Codable {
     var latitude: String?
     var longitude: String?
 
+    override var description: String {
+        "--RestaurantShow--\n" +
+            "name: \(name)\n" +
+            "id: \(id)\n" +
+            "rating: \(rating)\n" +
+            "desc: \(desc)\n" +
+            "latitude: \(latitude)\n" +
+            "longitude: \(String(describing: desc))\n"
+    }
+
     enum CodingKeys: String, CodingKey {
         case name
         case id
@@ -57,5 +67,4 @@ class RestaurantShow: NSObject, Codable {
         self.latitude = latitude
         self.longitude = longitude
     }
-
 }
