@@ -83,100 +83,71 @@ class IntegrationTests: XCTestCase {
         XCTAssertNotEqual(restArray?.count, 0)
     }
 
-    func testIntegrationGetRestaurantsHaveValidPhoto() {
-        let expec = expectation(description: "testGetRestaurantsHaveValidPhoto")
-
-        var restArray: [RestaurantShow]?
-        ServiceLayer.request(api: .getRestaurants(nil)) { (result: Result<[RestaurantShow], Error>) in
-            switch result {
-            case let .success(array):
-                restArray = array
-            case .failure:
-                print(result)
-            }
-            expec.fulfill()
-        }
-        waitForExpectations(timeout: 30) { error in
-            if let error = error {
-                SALogger.log("Error: \(error.localizedDescription)", .error)
-            }
-        }
-
-        restArray?.forEach {
-            guard let partialURL = $0.images?.first else { return }
-            let imageData = try? Data(contentsOf: GlobalData.completeURLforResource(resource: partialURL)!)
-            SALogger.log("Trying to load: \(GlobalData.completeURLforResource(resource: partialURL)!)", .info)
-            let uiImage = UIImage(data: imageData ?? Data())
-            // XCTAssertNotNil(uiImage, "Invalid image data: restaurant:\($0.name). \n URL: \(String(describing: GlobalData.completeURLforResource(resource: $0.images?.first)))")
-        }
-    }
-
-    func testIntegrationModifyRestaurantName() {
-        let originalName = "name1"
-        let updatedName = "name2"
-        let originalDescription = "desciption 1"
-        let updatedDescription = "description 2"
-
-        let imageData = UIImage(named: "restaurant1")?.jpegData(compressionQuality: 0.5)
-        let image = Image(mimeType: "image/jpeg", data: imageData!)
-        let restaurant = RestaurantCreate(name: originalName, images: [image], desc: originalDescription)
-
-        let expec = expectation(description: "testIntegrationModifyRestaurantName")
-
-        let semaphore = DispatchSemaphore(value: 0)
-
-        SALogger.log("Create a new Restaurant: \(restaurant!)", .info)
-
-        var returnedRestaurant: RestaurantShow?
-        ServiceLayer.request(api: .createRestaurant(restaurant!)) { (result: Result<RestaurantShow, Error>) in
-            switch result {
-            case let .success(restaurant):
-                returnedRestaurant = restaurant
-                self.idRestaurantsToClean.append(restaurant.id)
-                XCTAssert(true)
-            case .failure:
-                XCTFail()
-                return
-            }
-            semaphore.signal()
-        }
-        semaphore.wait()
-
-        let newData = RestaurantUpdateData(restaurantShow: returnedRestaurant!)
-        newData.name = updatedName
-        newData.desc = updatedDescription
-        SALogger.log("Modify the restaurant: \(newData)", .info)
-
-        ServiceLayer.request(api: .updateRestaurant(returnedRestaurant!.id, newData)) { (result: Result<String, Error>) in
-            switch result {
-            case .success:
-                XCTAssert(true)
-            case .failure:
-                XCTFail()
-                return
-            }
-            semaphore.signal()
-        }
-        semaphore.wait()
-
-        SALogger.log("Get updated data: \(newData)", .info)
-
-        ServiceLayer.request(api: .getRestaurant(returnedRestaurant!.id)) { (result: Result<RestaurantShow, Error>) in
-            switch result {
-            case let .success(restaurant):
-                XCTAssertEqual(restaurant.name, updatedName)
-                XCTAssertEqual(restaurant.desc, updatedDescription)
-            case .failure:
-                XCTFail()
-                return
-            }
-            expec.fulfill()
-        }
-
-        waitForExpectations(timeout: 30) { error in
-            if let error = error {
-                SALogger.log("Error: \(error.localizedDescription)", .error)
-            }
-        }
-    }
+//    func testIntegrationModifyRestaurantName() {
+//        let originalName = "name1"
+//        let updatedName = "name2"
+//        let originalDescription = "desciption 1"
+//        let updatedDescription = "description 2"
+//
+//        let imageData = UIImage(named: "restaurant1")?.jpegData(compressionQuality: 0.5)
+//        let image = Image(mimeType: "image/jpeg", data: imageData!)
+//        let restaurant = RestaurantCreate(name: originalName, images: [image], desc: originalDescription)
+//
+//        let expec = expectation(description: "testIntegrationModifyRestaurantName")
+//
+//        let semaphore = DispatchSemaphore(value: 0)
+//
+//        SALogger.log("Create a new Restaurant: \(restaurant!)", .info)
+//
+//        var returnedRestaurant: RestaurantShow?
+//        ServiceLayer.request(api: .createRestaurant(restaurant!)) { (result: Result<RestaurantShow, Error>) in
+//            switch result {
+//            case let .success(restaurant):
+//                returnedRestaurant = restaurant
+//                self.idRestaurantsToClean.append(restaurant.id)
+//                XCTAssert(true)
+//            case .failure:
+//                XCTFail()
+//                return
+//            }
+//            semaphore.signal()
+//        }
+//        semaphore.wait()
+//
+//        let newData = RestaurantUpdateData(restaurantShow: returnedRestaurant!)
+//        newData.name = updatedName
+//        newData.desc = updatedDescription
+//        SALogger.log("Modify the restaurant: \(newData)", .info)
+//
+//        ServiceLayer.request(api: .updateRestaurant(returnedRestaurant!.id, newData)) { (result: Result<String, Error>) in
+//            switch result {
+//            case .success:
+//                XCTAssert(true)
+//            case .failure:
+//                XCTFail()
+//                return
+//            }
+//            semaphore.signal()
+//        }
+//        semaphore.wait()
+//
+//        SALogger.log("Get updated data: \(newData)", .info)
+//
+//        ServiceLayer.request(api: .getRestaurant(returnedRestaurant!.id)) { (result: Result<RestaurantShow, Error>) in
+//            switch result {
+//            case let .success(restaurant):
+//                XCTAssertEqual(restaurant.name, updatedName)
+//                XCTAssertEqual(restaurant.desc, updatedDescription)
+//            case .failure:
+//                XCTFail()
+//            }
+//            expec.fulfill()
+//        }
+//
+//        waitForExpectations(timeout: 30) { error in
+//            if let error = error {
+//                SALogger.log("Error: \(error.localizedDescription)", .error)
+//            }
+//        }
+//    }
 }

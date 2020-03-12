@@ -10,6 +10,7 @@ import Foundation
 
 enum ServerError: Error {
     case remoteError
+    case invalidJSONError
 }
 
 class ServiceLayer {
@@ -29,7 +30,7 @@ class ServiceLayer {
         urlRequest.httpMethod = api.method
 
         print("Network request; \(url.absoluteURL)")
-        
+
         if let data = api.data {
             urlRequest.httpBody = data
         }
@@ -45,7 +46,7 @@ class ServiceLayer {
                 return
             }
 
-            if let response = response as? HTTPURLResponse,  response.statusCode > 299 {
+            if let response = response as? HTTPURLResponse, response.statusCode > 299 {
                 let error = ServerError.remoteError
                 completion(.failure(error))
                 print("Response Status: \(response.statusCode)")
@@ -56,9 +57,11 @@ class ServiceLayer {
                 return
             }
 
-            let responseObject = try! JSONDecoder().decode(T.self, from: data)
-            completion(.success(responseObject))
-
+            if let responseObject = try? JSONDecoder().decode(T.self, from: data) {
+                completion(.success(responseObject))
+            } else {
+                completion(.failure(ServerError.invalidJSONError))
+            }
         }
         dataTask.resume()
     }
@@ -82,7 +85,7 @@ class ServiceLayer {
         }
 
         let session = URLSession(configuration: .default)
-        let dataTask = session.dataTask(with: urlRequest) { data, response, error in
+        let dataTask = session.dataTask(with: urlRequest) { _, response, error in
             guard error == nil else {
                 completion(.failure(error!))
                 print(error!.localizedDescription)
@@ -92,7 +95,7 @@ class ServiceLayer {
                 return
             }
 
-            if let response = response as? HTTPURLResponse,  response.statusCode > 299 {
+            if let response = response as? HTTPURLResponse, response.statusCode > 299 {
                 let error = ServerError.remoteError
                 completion(.failure(error))
                 print("Response Status: \(response.statusCode)")
@@ -100,7 +103,6 @@ class ServiceLayer {
             }
 
             completion(.success(""))
-
         }
         dataTask.resume()
     }

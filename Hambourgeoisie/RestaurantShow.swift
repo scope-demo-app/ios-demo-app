@@ -24,10 +24,10 @@ class RestaurantShow: NSObject, Codable {
         "--RestaurantShow--\n" +
             "name: \(name)\n" +
             "id: \(id)\n" +
-            "rating: \(rating)\n" +
-            "desc: \(desc)\n" +
-            "latitude: \(latitude)\n" +
-            "longitude: \(String(describing: desc))\n"
+            "rating: \(rating ?? 0)\n" +
+            "desc: \(desc ?? "<Empty Desc>")\n" +
+            "latitude: \(latitude ?? "No Latitude")\n" +
+            "longitude: \(longitude ?? "No Longitude")\n"
     }
 
     enum CodingKeys: String, CodingKey {

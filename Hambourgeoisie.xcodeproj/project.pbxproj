@@ -613,7 +613,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
@@ -640,7 +639,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
@@ -667,7 +665,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
@@ -694,7 +691,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
@@ -721,7 +717,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
@@ -748,7 +743,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
@@ -775,7 +769,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
@@ -802,7 +795,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
@@ -941,7 +933,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Hambourgeoisie/Info.plist;
@@ -966,7 +957,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Hambourgeoisie/Info.plist;
@@ -991,7 +981,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
@@ -1018,7 +1007,6 @@
 				DEVELOPMENT_TEAM = BNYFFFVM49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Hambourgeoisie/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
