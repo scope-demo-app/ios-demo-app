@@ -12,7 +12,7 @@ import ScopeAgent
 
 class RestaurantUncertainTests: XCTestCase {
 
-    func testIntegrationGetRestaurantsNotEmpty() {
+    func testIntegrationGetRestaurantsNotEmpty_flaky() {
         let expec = expectation(description: "testGetRestaurantsNotEmpty")
 
         var restArray: [RestaurantShow]?
