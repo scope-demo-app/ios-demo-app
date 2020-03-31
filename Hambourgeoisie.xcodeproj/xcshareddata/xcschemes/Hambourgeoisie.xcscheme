@@ -109,7 +109,7 @@
       </EnvironmentVariables>
       <Testables>
          <TestableReference
-            skipped = "YES">
+            skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "66A55AF023E8125100642D6B"
