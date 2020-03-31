@@ -25,7 +25,7 @@ class IntegrationTests: XCTestCase {
         }
     }
 
-    func testIntegrationCreateRestaurantInServerReturnsSameData() {
+    func testIntegrationCreateRestaurantInServerReturnsSameData_demo() {
         let imageData = UIImage(named: "restaurant1")?.jpegData(compressionQuality: 0.5)
         let image = Image(mimeType: "image/jpeg", data: imageData!)
         let restaurant = RestaurantCreate(name: "SwiftTest", images: [image], desc: "my description")
@@ -58,7 +58,7 @@ class IntegrationTests: XCTestCase {
         XCTAssertEqual(restaurant?.images?.first?.data, try? Data(contentsOf: GlobalData.completeURLforResource(resource: returnedRestaurant?.images?.first)!))
     }
 
-    func testIntegrationGetRestaurantsNotEmpty() {
+    func testIntegrationGetRestaurantsNotEmpty_demo() {
         let expec = expectation(description: "testGetRestaurantsNotEmpty")
 
         var restArray: [RestaurantShow]?

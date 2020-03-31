@@ -8,20 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6609221B23E9AEFA00533E44 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 6609221A23E9AEFA00533E44 /* Nuke */; };
-		660F58CE23F41B3A0087D4EE /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
-		660F58E023F41B3C0087D4EE /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
-		660F58F223F41B3D0087D4EE /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
-		660F590423F41B3F0087D4EE /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
-		660F590C23F41BBC0087D4EE /* RestaurantUncertainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */; };
-		660F590D23F41BBC0087D4EE /* RestaurantUncertainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */; };
-		660F590E23F41BBD0087D4EE /* RestaurantUncertainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */; };
-		660F590F23F41BBD0087D4EE /* RestaurantUncertainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */; };
 		6631243223ED589B00C0AF42 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
 		6631243323ED589B00C0AF42 /* ScopeAgent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		664CFF6023E9651700E6C660 /* TPKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; };
 		664CFF6123E9652D00E6C660 /* TPKeyboardAvoidingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		665BF42C23EB25240070BEB7 /* RestaurantUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */; };
-		665BF43023EC08D30070BEB7 /* RestaurantUncertainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */; };
 		666BB76823EAAC5100C13B97 /* RestaurantUpdateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BB76723EAAC5100C13B97 /* RestaurantUpdateData.swift */; };
 		666BB76A23EAB2A100C13B97 /* RestaurantShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */; };
 		6699589623E970C200DDC000 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
@@ -46,34 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		660F58C623F41B3A0087D4EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 66A55AD323E8124E00642D6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66A55ADA23E8124E00642D6B;
-			remoteInfo = Hambourgeoisie;
-		};
-		660F58D823F41B3C0087D4EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 66A55AD323E8124E00642D6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66A55ADA23E8124E00642D6B;
-			remoteInfo = Hambourgeoisie;
-		};
-		660F58EA23F41B3D0087D4EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 66A55AD323E8124E00642D6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66A55ADA23E8124E00642D6B;
-			remoteInfo = Hambourgeoisie;
-		};
-		660F58FC23F41B3F0087D4EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 66A55AD323E8124E00642D6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66A55ADA23E8124E00642D6B;
-			remoteInfo = Hambourgeoisie;
-		};
 		66A55AF223E8125100642D6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 66A55AD323E8124E00642D6B /* Project object */;
@@ -99,17 +62,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		660F58D423F41B3A0087D4EE /* HambourgeoisieTests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HambourgeoisieTests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660F58D523F41B3A0087D4EE /* HambourgeoisieTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HambourgeoisieTests copy-Info.plist"; path = "/Users/nacho/projects/ios-demo-app/HambourgeoisieTests copy-Info.plist"; sourceTree = "<absolute>"; };
-		660F58E623F41B3C0087D4EE /* HambourgeoisieTests3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HambourgeoisieTests3.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660F58E723F41B3C0087D4EE /* HambourgeoisieTests copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HambourgeoisieTests copy copy-Info.plist"; path = "/Users/nacho/projects/ios-demo-app/HambourgeoisieTests copy copy-Info.plist"; sourceTree = "<absolute>"; };
-		660F58F823F41B3D0087D4EE /* HambourgeoisieTests4.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HambourgeoisieTests4.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660F58F923F41B3D0087D4EE /* HambourgeoisieTests copy copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HambourgeoisieTests copy copy copy-Info.plist"; path = "/Users/nacho/projects/ios-demo-app/HambourgeoisieTests copy copy copy-Info.plist"; sourceTree = "<absolute>"; };
-		660F590A23F41B3F0087D4EE /* HambourgeoisieTests5.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HambourgeoisieTests5.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660F590B23F41B3F0087D4EE /* HambourgeoisieTests copy copy copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HambourgeoisieTests copy copy copy copy-Info.plist"; path = "/Users/nacho/projects/ios-demo-app/HambourgeoisieTests copy copy copy copy-Info.plist"; sourceTree = "<absolute>"; };
 		664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPKeyboardAvoidingKit.framework; path = Carthage/Build/iOS/TPKeyboardAvoidingKit.framework; sourceTree = "<group>"; };
 		665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUnitTests.swift; sourceTree = "<group>"; };
-		665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUncertainTests.swift; sourceTree = "<group>"; };
 		666BB76723EAAC5100C13B97 /* RestaurantUpdateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdateData.swift; sourceTree = "<group>"; };
 		666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantShowTests.swift; sourceTree = "<group>"; };
 		6699589523E970C200DDC000 /* ScopeAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScopeAgent.framework; path = Carthage/Build/iOS/ScopeAgent.framework; sourceTree = "<group>"; };
@@ -137,38 +95,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		660F58CD23F41B3A0087D4EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				660F58CE23F41B3A0087D4EE /* ScopeAgent.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		660F58DF23F41B3C0087D4EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				660F58E023F41B3C0087D4EE /* ScopeAgent.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		660F58F123F41B3D0087D4EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				660F58F223F41B3D0087D4EE /* ScopeAgent.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		660F590323F41B3F0087D4EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				660F590423F41B3F0087D4EE /* ScopeAgent.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66A55AD823E8124E00642D6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,10 +136,6 @@
 			children = (
 				66A55ADB23E8124E00642D6B /* Hambourgeoisie.app */,
 				66A55AF123E8125100642D6B /* HambourgeoisieTests.xctest */,
-				660F58D423F41B3A0087D4EE /* HambourgeoisieTests2.xctest */,
-				660F58E623F41B3C0087D4EE /* HambourgeoisieTests3.xctest */,
-				660F58F823F41B3D0087D4EE /* HambourgeoisieTests4.xctest */,
-				660F590A23F41B3F0087D4EE /* HambourgeoisieTests5.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,7 +168,6 @@
 				66A55AF523E8125100642D6B /* RestaurantCreateTests.swift */,
 				665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */,
 				666BB76923EAB2A100C13B97 /* RestaurantShowTests.swift */,
-				665BF42F23EC08D30070BEB7 /* RestaurantUncertainTests.swift */,
 				66AA797923EAB89600111A8E /* IntegrationTests.swift */,
 				66A55AF723E8125100642D6B /* Info.plist */,
 			);
@@ -283,74 +204,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		660F58C423F41B3A0087D4EE /* HambourgeoisieTests2 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 660F58D123F41B3A0087D4EE /* Build configuration list for PBXNativeTarget "HambourgeoisieTests2" */;
-			buildPhases = (
-				660F58C723F41B3A0087D4EE /* Sources */,
-				660F58CD23F41B3A0087D4EE /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				660F58C523F41B3A0087D4EE /* PBXTargetDependency */,
-			);
-			name = HambourgeoisieTests2;
-			productName = HambourgeoisieTests;
-			productReference = 660F58D423F41B3A0087D4EE /* HambourgeoisieTests2.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		660F58D623F41B3C0087D4EE /* HambourgeoisieTests3 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 660F58E323F41B3C0087D4EE /* Build configuration list for PBXNativeTarget "HambourgeoisieTests3" */;
-			buildPhases = (
-				660F58D923F41B3C0087D4EE /* Sources */,
-				660F58DF23F41B3C0087D4EE /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				660F58D723F41B3C0087D4EE /* PBXTargetDependency */,
-			);
-			name = HambourgeoisieTests3;
-			productName = HambourgeoisieTests;
-			productReference = 660F58E623F41B3C0087D4EE /* HambourgeoisieTests3.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		660F58E823F41B3D0087D4EE /* HambourgeoisieTests4 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 660F58F523F41B3D0087D4EE /* Build configuration list for PBXNativeTarget "HambourgeoisieTests4" */;
-			buildPhases = (
-				660F58EB23F41B3D0087D4EE /* Sources */,
-				660F58F123F41B3D0087D4EE /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				660F58E923F41B3D0087D4EE /* PBXTargetDependency */,
-			);
-			name = HambourgeoisieTests4;
-			productName = HambourgeoisieTests;
-			productReference = 660F58F823F41B3D0087D4EE /* HambourgeoisieTests4.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		660F58FA23F41B3F0087D4EE /* HambourgeoisieTests5 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 660F590723F41B3F0087D4EE /* Build configuration list for PBXNativeTarget "HambourgeoisieTests5" */;
-			buildPhases = (
-				660F58FD23F41B3F0087D4EE /* Sources */,
-				660F590323F41B3F0087D4EE /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				660F58FB23F41B3F0087D4EE /* PBXTargetDependency */,
-			);
-			name = HambourgeoisieTests5;
-			productName = HambourgeoisieTests;
-			productReference = 660F590A23F41B3F0087D4EE /* HambourgeoisieTests5.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		66A55ADA23E8124E00642D6B /* Hambourgeoisie */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66A55AFA23E8125100642D6B /* Build configuration list for PBXNativeTarget "Hambourgeoisie" */;
@@ -430,10 +283,6 @@
 			targets = (
 				66A55ADA23E8124E00642D6B /* Hambourgeoisie */,
 				66A55AF023E8125100642D6B /* HambourgeoisieTests */,
-				660F58C423F41B3A0087D4EE /* HambourgeoisieTests2 */,
-				660F58D623F41B3C0087D4EE /* HambourgeoisieTests3 */,
-				660F58E823F41B3D0087D4EE /* HambourgeoisieTests4 */,
-				660F58FA23F41B3F0087D4EE /* HambourgeoisieTests5 */,
 			);
 		};
 /* End PBXProject section */
@@ -490,38 +339,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		660F58C723F41B3A0087D4EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				660F590C23F41BBC0087D4EE /* RestaurantUncertainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		660F58D923F41B3C0087D4EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				660F590D23F41BBC0087D4EE /* RestaurantUncertainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		660F58EB23F41B3D0087D4EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				660F590E23F41BBD0087D4EE /* RestaurantUncertainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		660F58FD23F41B3F0087D4EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				660F590F23F41BBD0087D4EE /* RestaurantUncertainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66A55AD723E8124E00642D6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,7 +365,6 @@
 			files = (
 				665BF42C23EB25240070BEB7 /* RestaurantUnitTests.swift in Sources */,
 				66A55AF623E8125100642D6B /* RestaurantCreateTests.swift in Sources */,
-				665BF43023EC08D30070BEB7 /* RestaurantUncertainTests.swift in Sources */,
 				666BB76A23EAB2A100C13B97 /* RestaurantShowTests.swift in Sources */,
 				66AA797A23EAB89600111A8E /* IntegrationTests.swift in Sources */,
 			);
@@ -557,26 +373,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		660F58C523F41B3A0087D4EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 66A55ADA23E8124E00642D6B /* Hambourgeoisie */;
-			targetProxy = 660F58C623F41B3A0087D4EE /* PBXContainerItemProxy */;
-		};
-		660F58D723F41B3C0087D4EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 66A55ADA23E8124E00642D6B /* Hambourgeoisie */;
-			targetProxy = 660F58D823F41B3C0087D4EE /* PBXContainerItemProxy */;
-		};
-		660F58E923F41B3D0087D4EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 66A55ADA23E8124E00642D6B /* Hambourgeoisie */;
-			targetProxy = 660F58EA23F41B3D0087D4EE /* PBXContainerItemProxy */;
-		};
-		660F58FB23F41B3F0087D4EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 66A55ADA23E8124E00642D6B /* Hambourgeoisie */;
-			targetProxy = 660F58FC23F41B3F0087D4EE /* PBXContainerItemProxy */;
-		};
 		66A55AF323E8125100642D6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 66A55ADA23E8124E00642D6B /* Hambourgeoisie */;
@@ -604,214 +400,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		660F58D223F41B3A0087D4EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Debug;
-		};
-		660F58D323F41B3A0087D4EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Release;
-		};
-		660F58E423F41B3C0087D4EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Debug;
-		};
-		660F58E523F41B3C0087D4EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Release;
-		};
-		660F58F623F41B3D0087D4EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Debug;
-		};
-		660F58F723F41B3D0087D4EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Release;
-		};
-		660F590823F41B3F0087D4EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Debug;
-		};
-		660F590923F41B3F0087D4EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Release;
-		};
 		66A55AF823E8125100642D6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1027,42 +615,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		660F58D123F41B3A0087D4EE /* Build configuration list for PBXNativeTarget "HambourgeoisieTests2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				660F58D223F41B3A0087D4EE /* Debug */,
-				660F58D323F41B3A0087D4EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		660F58E323F41B3C0087D4EE /* Build configuration list for PBXNativeTarget "HambourgeoisieTests3" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				660F58E423F41B3C0087D4EE /* Debug */,
-				660F58E523F41B3C0087D4EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		660F58F523F41B3D0087D4EE /* Build configuration list for PBXNativeTarget "HambourgeoisieTests4" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				660F58F623F41B3D0087D4EE /* Debug */,
-				660F58F723F41B3D0087D4EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		660F590723F41B3F0087D4EE /* Build configuration list for PBXNativeTarget "HambourgeoisieTests5" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				660F590823F41B3F0087D4EE /* Debug */,
-				660F590923F41B3F0087D4EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		66A55AD623E8124E00642D6B /* Build configuration list for PBXProject "Hambourgeoisie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

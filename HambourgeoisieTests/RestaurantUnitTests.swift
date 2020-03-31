@@ -10,326 +10,326 @@ import XCTest
 
 class RestaurantUnitTests: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
@@ -337,326 +337,326 @@ class RestaurantUnitTests: XCTestCase {
 }
 class RestaurantUnitTests2: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
@@ -664,326 +664,326 @@ class RestaurantUnitTests2: XCTestCase {
 }
 class RestaurantUnitTests3: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
@@ -991,326 +991,326 @@ class RestaurantUnitTests3: XCTestCase {
 }
 class RestaurantUnitTests4: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
@@ -1318,326 +1318,326 @@ class RestaurantUnitTests4: XCTestCase {
 }
 class RestaurantUnitTests5: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
@@ -1645,326 +1645,326 @@ class RestaurantUnitTests5: XCTestCase {
 }
 class RestaurantUnitTests6: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
@@ -1972,326 +1972,326 @@ class RestaurantUnitTests6: XCTestCase {
 }
 class RestaurantUnitTests7: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
@@ -2299,326 +2299,326 @@ class RestaurantUnitTests7: XCTestCase {
 }
 class RestaurantUnitTests8: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
@@ -2626,326 +2626,326 @@ class RestaurantUnitTests8: XCTestCase {
 }
 class RestaurantUnitTests9: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
@@ -2953,328 +2953,326 @@ class RestaurantUnitTests9: XCTestCase {
 }
 class RestaurantUnitTests10: XCTestCase {
 
-    func testRestaurantLaneKeepAssistOptionA() {
+    func test_dummy_LaneKeepAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionA() {
+    func test_dummy_RearViewCameraOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionA() {
+    func test_dummy_BreakAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionA() {
+    func test_dummy_CrosswindAssistOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionA() {
+    func test_dummy_4MATICAWDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionA() {
+    func test_dummy_COMANDOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionA() {
+    func test_dummy_DistronicPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionA() {
+    func test_dummy_SeatBeltOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionA() {
+    func test_dummy_CruiseControlOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionA() {
+    func test_dummy_AssistPlusOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionA() {
+    func test_dummy_CarStartOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionA() {
+    func test_dummy_SetTemperatureOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionA() {
+    func test_dummy_HDRadioOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionA() {
+    func test_dummy_MbraceLoginOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionA() {
+    func test_dummy_BluetoothConnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionA() {
+    func test_dummy_BluetoohDisconnectOptionA() {
         usleep( arc4random_uniform(50_000) )
     }
 
-    func testRestaurantLaneKeepAssistOptionB() {
+    func test_dummy_LaneKeepAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionB() {
+    func test_dummy_RearViewCameraOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionB() {
+    func test_dummy_BreakAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionB() {
+    func test_dummy_CrosswindAssistOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionB() {
+    func test_dummy_4MATICAWDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionB() {
+    func test_dummy_COMANDOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionB() {
+    func test_dummy_DistronicPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionB() {
+    func test_dummy_SeatBeltOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionB() {
+    func test_dummy_CruiseControlOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionB() {
+    func test_dummy_AssistPlusOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionB() {
+    func test_dummy_CarStartOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionB() {
+    func test_dummy_SetTemperatureOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionB() {
+    func test_dummy_HDRadioOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionB() {
+    func test_dummy_MbraceLoginOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionB() {
+    func test_dummy_BluetoothConnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionB() {
+    func test_dummy_BluetoohDisconnectOptionB() {
         usleep( 50_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionF() {
+    func test_dummy_LaneKeepAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionF() {
+    func test_dummy_RearViewCameraOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionF() {
+    func test_dummy_BreakAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionF() {
+    func test_dummy_CrosswindAssistOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionF() {
+    func test_dummy_4MATICAWDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionF() {
+    func test_dummy_COMANDOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionF() {
+    func test_dummy_DistronicPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionF() {
+    func test_dummy_SeatBeltOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionF() {
+    func test_dummy_CruiseControlOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionF() {
+    func test_dummy_AssistPlusOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionF() {
+    func test_dummy_CarStartOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionF() {
+    func test_dummy_SetTemperatureOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionF() {
+    func test_dummy_HDRadioOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionF() {
+    func test_dummy_MbraceLoginOptionF() {
         usleep( 100_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionC() {
+    func test_dummy_BluetoothConnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionC() {
+    func test_dummy_BluetoohDisconnectOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionC() {
+    func test_dummy_LaneKeepAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantRearViewCameraOptionC() {
+    func test_dummy_RearViewCameraOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBreakAssistOptionC() {
+    func test_dummy_BreakAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionC() {
+    func test_dummy_CrosswindAssistOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurant4MATICAWDOptionC() {
+    func test_dummy_4MATICAWDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCOMANDOptionC() {
+    func test_dummy_COMANDOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantDistronicPlusOptionC() {
+    func test_dummy_DistronicPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSeatBeltOptionC() {
+    func test_dummy_SeatBeltOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCruiseControlOptionC() {
+    func test_dummy_CruiseControlOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantAssistPlusOptionC() {
+    func test_dummy_AssistPlusOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantCarStartOptionC() {
+    func test_dummy_CarStartOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantSetTemperatureOptionC() {
+    func test_dummy_SetTemperatureOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantHDRadioOptionC() {
+    func test_dummy_HDRadioOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantMbraceLoginOptionC() {
+    func test_dummy_MbraceLoginOptionC() {
         usleep( 150_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionD() {
+    func test_dummy_BluetoothConnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionD() {
+    func test_dummy_BluetoohDisconnectOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
 
-    func testRestaurantLaneKeepAssistOptionD() {
+    func test_dummy_LaneKeepAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantRearViewCameraOptionD() {
+    func test_dummy_RearViewCameraOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantBreakAssistOptionD() {
+    func test_dummy_BreakAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCrosswindAssistOptionD() {
+    func test_dummy_CrosswindAssistOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurant4MATICAWDOptionD() {
+    func test_dummy_4MATICAWDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCOMANDOptionD() {
+    func test_dummy_COMANDOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantDistronicPlusOptionD() {
+    func test_dummy_DistronicPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSeatBeltOptionD() {
+    func test_dummy_SeatBeltOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCruiseControlOptionD() {
+    func test_dummy_CruiseControlOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantAssistPlusOptionD() {
+    func test_dummy_AssistPlusOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantCarStartOptionD() {
+    func test_dummy_CarStartOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantSetTemperatureOptionD() {
+    func test_dummy_SetTemperatureOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantHDRadioOptionD() {
+    func test_dummy_HDRadioOptionD() {
         usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
     }
 
-    func testRestaurantMbraceLoginOptionD() {
+    func test_dummy_MbraceLoginOptionD() {
         usleep( 125_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoothConnectOptionE() {
+    func test_dummy_BluetoothConnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
 
-    func testRestaurantBluetoohDisconnectOptionE() {
+    func test_dummy_BluetoohDisconnectOptionE() {
         usleep( 25_000 + arc4random_uniform(50_000) )
     }
-
-
 }
