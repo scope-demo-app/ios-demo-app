@@ -261,64 +261,64 @@ class RestaurantUnitTests: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
@@ -588,64 +588,64 @@ class RestaurantUnitTests2: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
@@ -915,64 +915,64 @@ class RestaurantUnitTests3: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
@@ -1242,64 +1242,64 @@ class RestaurantUnitTests4: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
@@ -1569,64 +1569,64 @@ class RestaurantUnitTests5: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
@@ -1896,64 +1896,64 @@ class RestaurantUnitTests6: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
@@ -2223,64 +2223,64 @@ class RestaurantUnitTests7: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
@@ -2550,64 +2550,64 @@ class RestaurantUnitTests8: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
@@ -2877,64 +2877,64 @@ class RestaurantUnitTests9: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
@@ -3204,64 +3204,64 @@ class RestaurantUnitTests10: XCTestCase {
     }
 
     func test_dummy_BluetoothConnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BluetoohDisconnectOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
 
     func test_dummy_LaneKeepAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_RearViewCameraOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_BreakAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CrosswindAssistOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_4MATICAWDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_COMANDOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_DistronicPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SeatBeltOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CruiseControlOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_AssistPlusOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_CarStartOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_SetTemperatureOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_HDRadioOptionD() {
-        usleep( arc4random_uniform(5_000_000) + arc4random_uniform(5_000_000) )
+        usleep( arc4random_uniform(500_000) + arc4random_uniform(500_000) )
     }
 
     func test_dummy_MbraceLoginOptionD() {
