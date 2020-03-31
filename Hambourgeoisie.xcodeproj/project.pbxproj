@@ -71,12 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		660F58D523F41B3A0087D4EE /* HambourgeoisieTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HambourgeoisieTests copy-Info.plist"; path = "/Users/nacho/projects/ios-demo-app/HambourgeoisieTests copy-Info.plist"; sourceTree = "<absolute>"; };
-		660F58E723F41B3C0087D4EE /* HambourgeoisieTests copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HambourgeoisieTests copy copy-Info.plist"; path = "/Users/nacho/projects/ios-demo-app/HambourgeoisieTests copy copy-Info.plist"; sourceTree = "<absolute>"; };
-		660F58F923F41B3D0087D4EE /* HambourgeoisieTests copy copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HambourgeoisieTests copy copy copy-Info.plist"; path = "/Users/nacho/projects/ios-demo-app/HambourgeoisieTests copy copy copy-Info.plist"; sourceTree = "<absolute>"; };
-		660F590B23F41B3F0087D4EE /* HambourgeoisieTests copy copy copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HambourgeoisieTests copy copy copy copy-Info.plist"; path = "/Users/nacho/projects/ios-demo-app/HambourgeoisieTests copy copy copy copy-Info.plist"; sourceTree = "<absolute>"; };
 		661986A124336F220002A1E7 /* HambourgeoisieTestsDuplicateIntegration.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HambourgeoisieTestsDuplicateIntegration.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		661986A224336F220002A1E7 /* HambourgeoisieTests copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HambourgeoisieTests copy2-Info.plist"; path = "/Users/nacho/projects/ios-demo-app/HambourgeoisieTests copy2-Info.plist"; sourceTree = "<absolute>"; };
 		664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPKeyboardAvoidingKit.framework; path = Carthage/Build/iOS/TPKeyboardAvoidingKit.framework; sourceTree = "<group>"; };
 		665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUnitTests.swift; sourceTree = "<group>"; };
 		666BB76723EAAC5100C13B97 /* RestaurantUpdateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdateData.swift; sourceTree = "<group>"; };
@@ -143,11 +138,6 @@
 				66A55AF423E8125100642D6B /* HambourgeoisieTests */,
 				66A55ADC23E8124E00642D6B /* Products */,
 				66EBC1C523E83AE8001C536F /* Frameworks */,
-				660F58D523F41B3A0087D4EE /* HambourgeoisieTests copy-Info.plist */,
-				660F58E723F41B3C0087D4EE /* HambourgeoisieTests copy copy-Info.plist */,
-				660F58F923F41B3D0087D4EE /* HambourgeoisieTests copy copy copy-Info.plist */,
-				660F590B23F41B3F0087D4EE /* HambourgeoisieTests copy copy copy copy-Info.plist */,
-				661986A224336F220002A1E7 /* HambourgeoisieTests copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
