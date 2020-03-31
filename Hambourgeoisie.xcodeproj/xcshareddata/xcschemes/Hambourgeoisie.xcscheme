@@ -109,7 +109,7 @@
       </EnvironmentVariables>
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "66A55AF023E8125100642D6B"
@@ -122,39 +122,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "660F58C423F41B3A0087D4EE"
-               BuildableName = "HambourgeoisieTests2.xctest"
-               BlueprintName = "HambourgeoisieTests2"
-               ReferencedContainer = "container:Hambourgeoisie.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "660F58D623F41B3C0087D4EE"
-               BuildableName = "HambourgeoisieTests3.xctest"
-               BlueprintName = "HambourgeoisieTests3"
-               ReferencedContainer = "container:Hambourgeoisie.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "660F58E823F41B3D0087D4EE"
-               BuildableName = "HambourgeoisieTests4.xctest"
-               BlueprintName = "HambourgeoisieTests4"
-               ReferencedContainer = "container:Hambourgeoisie.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "660F58FA23F41B3F0087D4EE"
-               BuildableName = "HambourgeoisieTests5.xctest"
-               BlueprintName = "HambourgeoisieTests5"
+               BlueprintIdentifier = "6619869324336F220002A1E7"
+               BuildableName = "HambourgeoisieTestsDuplicateIntegration.xctest"
+               BlueprintName = "HambourgeoisieTestsDuplicateIntegration"
                ReferencedContainer = "container:Hambourgeoisie.xcodeproj">
             </BuildableReference>
          </TestableReference>
