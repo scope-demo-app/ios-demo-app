@@ -204,7 +204,6 @@
 				66A55AD823E8124E00642D6B /* Frameworks */,
 				66A55AD923E8124E00642D6B /* Resources */,
 				66EBC1C923E83AE8001C536F /* Embed Frameworks */,
-				660F591423F43D500087D4EE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -226,6 +225,7 @@
 				66A55AED23E8125100642D6B /* Sources */,
 				66A55AEE23E8125100642D6B /* Frameworks */,
 				664CFF5B23E9631900E6C660 /* ShellScript */,
+				6647919F2434FADA006ED47A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -293,7 +293,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		660F591423F43D500087D4EE /* ShellScript */ = {
+		6647919F2434FADA006ED47A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
