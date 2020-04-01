@@ -8,6 +8,7 @@ jobs:
     strategy:
       matrix:
         destination: ["platform=iOS Simulator,name=iPhone 11", "platform=iOS Simulator,name=iPhone 11 Pro", "platform=iOS Simulator,name=iPhone 8", "platform=iOS Simulator,name=iPhone 8 Plus", "platform=iOS Simulator,name=iPhone 11 Pro Max"]
+      fail-fast: false
     steps:
       - name: Check if SCOPE_DSN is set
         run: if [ "${{secrets.SCOPE_DSN}}" = "" ]; then exit 1; fi
