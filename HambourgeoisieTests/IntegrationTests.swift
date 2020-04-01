@@ -87,7 +87,8 @@ class IntegrationTests: XCTestCase {
         let imageData = UIImage(named: "restaurant1")?.jpegData(compressionQuality: 0.5)
         let image = Image(mimeType: "image/jpeg", data: imageData!)
         let restaurantLongName = "This is a very long name for a restaurant name in a test that checks if it works"
-        let restaurant = RestaurantCreate(name: restaurantLongName, images: [image], desc: "my description")
+        let description = "my description"
+        let restaurant = RestaurantCreate(name: restaurantLongName, images: [image], desc: description)
 
         let expec = expectation(description: "testIntegrationCreateRestaurantWithLongName")
 
@@ -110,6 +111,7 @@ class IntegrationTests: XCTestCase {
             }
         }
         XCTAssertEqual(returnedRestaurant.name, restaurantLongName)
+        XCTAssertEqual(returnedRestaurant.description, description)
 
     }
 
