@@ -12,7 +12,7 @@ import ScopeAgent
 
 class RestaurantUncertainTests: XCTestCase {
 
-    /// This tests performs a request that fails with a rate of 50%. Run it in several test bundles so it shows falkynes in the failure
+    /// This tests performs a request that fails with a rate of 50%.
     func testIntegrationGetRestaurantsNotEmpty_flaky_demo() {
         let expec = expectation(description: "testGetRestaurantsNotEmpty")
 
