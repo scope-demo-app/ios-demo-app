@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6609221B23E9AEFA00533E44 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 6609221A23E9AEFA00533E44 /* Nuke */; };
-		6619869A24336F220002A1E7 /* IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AA797923EAB89600111A8E /* IntegrationTests.swift */; };
-		6619869C24336F220002A1E7 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
 		6631243223ED589B00C0AF42 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; };
 		6631243323ED589B00C0AF42 /* ScopeAgent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6699589523E970C200DDC000 /* ScopeAgent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		664CFF6023E9651700E6C660 /* TPKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */; };
@@ -39,13 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6619869524336F220002A1E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 66A55AD323E8124E00642D6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66A55ADA23E8124E00642D6B;
-			remoteInfo = Hambourgeoisie;
-		};
 		66A55AF223E8125100642D6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 66A55AD323E8124E00642D6B /* Project object */;
@@ -71,7 +62,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		661986A124336F220002A1E7 /* HambourgeoisieTestsDuplicateIntegration.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HambourgeoisieTestsDuplicateIntegration.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		664CFF5F23E9651700E6C660 /* TPKeyboardAvoidingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPKeyboardAvoidingKit.framework; path = Carthage/Build/iOS/TPKeyboardAvoidingKit.framework; sourceTree = "<group>"; };
 		665BF42B23EB25240070BEB7 /* RestaurantUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUnitTests.swift; sourceTree = "<group>"; };
 		666BB76723EAAC5100C13B97 /* RestaurantUpdateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdateData.swift; sourceTree = "<group>"; };
@@ -101,14 +91,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6619869B24336F220002A1E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6619869C24336F220002A1E7 /* ScopeAgent.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66A55AD823E8124E00642D6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,7 +128,6 @@
 			children = (
 				66A55ADB23E8124E00642D6B /* Hambourgeoisie.app */,
 				66A55AF123E8125100642D6B /* HambourgeoisieTests.xctest */,
-				661986A124336F220002A1E7 /* HambourgeoisieTestsDuplicateIntegration.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,24 +196,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6619869324336F220002A1E7 /* HambourgeoisieTestsDuplicateIntegration */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6619869E24336F220002A1E7 /* Build configuration list for PBXNativeTarget "HambourgeoisieTestsDuplicateIntegration" */;
-			buildPhases = (
-				6619869624336F220002A1E7 /* Sources */,
-				6619869B24336F220002A1E7 /* Frameworks */,
-				6619869D24336F220002A1E7 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6619869424336F220002A1E7 /* PBXTargetDependency */,
-			);
-			name = HambourgeoisieTestsDuplicateIntegration;
-			productName = HambourgeoisieTests;
-			productReference = 661986A124336F220002A1E7 /* HambourgeoisieTestsDuplicateIntegration.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		66A55ADA23E8124E00642D6B /* Hambourgeoisie */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66A55AFA23E8125100642D6B /* Build configuration list for PBXNativeTarget "Hambourgeoisie" */;
@@ -312,7 +275,6 @@
 			targets = (
 				66A55ADA23E8124E00642D6B /* Hambourgeoisie */,
 				66A55AF023E8125100642D6B /* HambourgeoisieTests */,
-				6619869324336F220002A1E7 /* HambourgeoisieTestsDuplicateIntegration */,
 			);
 		};
 /* End PBXProject section */
@@ -348,24 +310,6 @@
 			shellPath = /bin/sh;
 			shellScript = "${SRCROOT}/Carthage/Build/iOS/ScopeAgent.framework/upload_symbols\n";
 		};
-		6619869D24336F220002A1E7 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/ScopeAgent.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n\n";
-		};
 		664CFF5B23E9631900E6C660 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,14 +331,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6619869624336F220002A1E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6619869A24336F220002A1E7 /* IntegrationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66A55AD723E8124E00642D6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,11 +365,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6619869424336F220002A1E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 66A55ADA23E8124E00642D6B /* Hambourgeoisie */;
-			targetProxy = 6619869524336F220002A1E7 /* PBXContainerItemProxy */;
-		};
 		66A55AF323E8125100642D6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 66A55ADA23E8124E00642D6B /* Hambourgeoisie */;
@@ -461,58 +392,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6619869F24336F220002A1E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Debug;
-		};
-		661986A024336F220002A1E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BNYFFFVM49;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = HambourgeoisieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.undefinedlabs.HambourgeoisieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hambourgeoisie.app/Hambourgeoisie";
-			};
-			name = Release;
-		};
 		66A55AF823E8125100642D6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -728,15 +607,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6619869E24336F220002A1E7 /* Build configuration list for PBXNativeTarget "HambourgeoisieTestsDuplicateIntegration" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6619869F24336F220002A1E7 /* Debug */,
-				661986A024336F220002A1E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		66A55AD623E8124E00642D6B /* Build configuration list for PBXProject "Hambourgeoisie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
