@@ -5,7 +5,9 @@ on: [push]
 jobs:
   scope:
     runs-on: macOS-latest
-    
+    strategy:
+      matrix:
+        destination: ["platform=iOS Simulator,name=iPhone 11", "platform=iOS Simulator,name=iPhone 11 Pro", "platform=iOS Simulator,name=iPhone 8"]
     steps:
       - name: Check if SCOPE_DSN is set
         run: if [ "${{secrets.SCOPE_DSN}}" = "" ]; then exit 1; fi
@@ -14,7 +16,6 @@ jobs:
       - name: Carthage Build
         run: carthage update
       - name: Build and test
-        run: xcodebuild test -project Hambourgeoisie.xcodeproj -scheme Hambourgeoisie -destination 'platform=iOS Simulator,name=iPhone 11'
+        run: xcodebuild test -project Hambourgeoisie.xcodeproj -scheme Hambourgeoisie -destination '${{ matrix.destination }}'
         env:
           SCOPE_DSN: ${{secrets.SCOPE_DSN}}
-
