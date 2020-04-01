@@ -86,18 +86,19 @@ class IntegrationTests: XCTestCase {
     func testIntegrationCreateRestaurantWithLongName_demo() {
         let imageData = UIImage(named: "restaurant1")?.jpegData(compressionQuality: 0.5)
         let image = Image(mimeType: "image/jpeg", data: imageData!)
-        let restaurant = RestaurantCreate(name: "This is a very long name for a restaurant name in a test that checks if it works", images: [image], desc: "my description")
+        let restaurantLongName = "This is a very long name for a restaurant name in a test that checks if it works"
+        let restaurant = RestaurantCreate(name: restaurantLongName, images: [image], desc: "my description")
 
         let expec = expectation(description: "testIntegrationCreateRestaurantWithLongName")
 
+        var returnedRestaurant: RestaurantShow!
         SALogger.log("Create a new Restaurant", .info)
         ServiceLayer.request(api: .createRestaurant(restaurant!)) { (result: Result<RestaurantShow, Error>) in
             switch result {
             case let .success(restaurant):
+                returnedRestaurant = restaurant
                 self.idRestaurantsToClean.append(restaurant.id)
-                XCTAssert(true)
             case .failure:
-                XCTFail()
                 return
             }
             expec.fulfill()
@@ -108,6 +109,8 @@ class IntegrationTests: XCTestCase {
                 SALogger.log("Error: \(error.localizedDescription)", .error)
             }
         }
+        XCTAssertEqual(returnedRestaurant.name, restaurantLongName)
+
     }
 
     func testIntegrationModifyRestaurantName_demo() {
