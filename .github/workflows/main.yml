@@ -20,4 +20,3 @@ jobs:
         run: xcodebuild test -project Hambourgeoisie.xcodeproj -scheme Hambourgeoisie -destination '${{ matrix.destination }}'
         env:
           SCOPE_DSN: ${{secrets.SCOPE_DSN}}
-
