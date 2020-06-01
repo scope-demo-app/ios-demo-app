@@ -106,6 +106,16 @@
             value = "CUSTOM_KEY=CUSTOM_VALUE"
             isEnabled = "YES">
          </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SCOPE_RUNNER_ENABLED"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SCOPE_RUNNER_EXCLUDE_BRANCHES"
+            value = "master"
+            isEnabled = "YES">
+         </EnvironmentVariable>
       </EnvironmentVariables>
       <Testables>
          <TestableReference
